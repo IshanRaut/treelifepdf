@@ -18,6 +18,8 @@ import { isOnboardingCompleted } from "@core/components/onboarding/orchestrator/
 const FRIENDLY_LAST_SEEN_KEY = "upgradeBannerFriendlyLastShownAt";
 const WEEK_IN_MS = 7 * 24 * 60 * 60 * 1000;
 const UpgradeBanner: React.FC = () => {
+  // Treelife: paid-plan upsell banner removed - render nothing.
+  return null;
   const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();

@@ -183,7 +183,7 @@ export function ChatFAB() {
           setIsOpen(true);
           setHasUnviewedResult(false);
         }}
-        aria-label={t("chat.fab.open", "Open Stirling AI assistant")}
+        aria-label={t("chat.fab.open", "Open TreelifePDF AI assistant")}
         aria-expanded={isOpen}
         isLoading={isLoading}
         showTick={hasUnviewedResult && !isLoading}

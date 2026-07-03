@@ -1616,7 +1616,7 @@ admin = "Beheerder"
 title = "Gebruikersbeheer"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "Treelife"
 
 [analytics]
 learnMore = "Meer informatie"
@@ -2732,7 +2732,7 @@ copy = "Bericht kopiëren"
 
 [chat.fab]
 close = "Close chat"
-open = "Open Stirling AI assistant"
+open = "Open TreelifePDF AI assistant"
 
 [chat.header]
 agentMenu = "Stirling-agentopties"
@@ -4972,7 +4972,7 @@ userTitle = "Abonnementoverzicht"
 [onboarding.saas.freeEditor]
 freeLine = "The editor is now <free>completely free</free>."
 premium = "We've added loads of new features, including <strong>Policies</strong> and <strong>Agent Chat</strong>."
-title = "Welcome to Stirling"
+title = "Welcome to TreelifePDF"
 
 [onboarding.saas.team]
 addButton = "Add"

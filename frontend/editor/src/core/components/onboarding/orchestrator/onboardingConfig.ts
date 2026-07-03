@@ -122,8 +122,8 @@ export const ONBOARDING_STEPS: OnboardingStep[] = [
     id: "server-license",
     type: "modal-slide",
     slideId: "server-license",
-    condition: (ctx) =>
-      ctx.effectiveIsAdmin && ctx.licenseNotice.requiresLicense,
+    // Treelife: paid-plan upsell removed - this slide is never shown.
+    condition: () => false,
   },
   {
     id: "mfa-setup",

@@ -46,7 +46,7 @@ export default function SaasOnboardingModal(props: SaasOnboardingModalProps) {
           <div className={styles.iconWrapper}>
             <img
               src={`${BASE_PATH}/modern-logo/logo512.png`}
-              alt="Stirling icon"
+              alt="TreelifePDF icon"
               className={styles.downloadIcon}
             />
           </div>
@@ -58,7 +58,7 @@ export default function SaasOnboardingModal(props: SaasOnboardingModalProps) {
       return (
         <img
           src={`${BASE_PATH}/modern-logo/logo512.png`}
-          alt="Stirling logo"
+          alt="TreelifePDF logo"
           className={styles.standaloneIcon}
         />
       );

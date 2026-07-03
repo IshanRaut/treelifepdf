@@ -1616,7 +1616,7 @@ admin = "Администратор"
 title = "Настройки за потребителски контрол"
 
 [agents]
-stirling_name = "Stirling"
+stirling_name = "Treelife"
 
 [analytics]
 learnMore = "Научете повече"
@@ -2732,7 +2732,7 @@ copy = "Копирайте съобщение"
 
 [chat.fab]
 close = "Close chat"
-open = "Open Stirling AI assistant"
+open = "Open TreelifePDF AI assistant"
 
 [chat.header]
 agentMenu = "Опции на агента Stirling"
@@ -4972,7 +4972,7 @@ userTitle = "Преглед на плана"
 [onboarding.saas.freeEditor]
 freeLine = "The editor is now <free>completely free</free>."
 premium = "We've added loads of new features, including <strong>Policies</strong> and <strong>Agent Chat</strong>."
-title = "Welcome to Stirling"
+title = "Welcome to TreelifePDF"
 
 [onboarding.saas.team]
 addButton = "Add"

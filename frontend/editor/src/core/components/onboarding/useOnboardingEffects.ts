@@ -21,19 +21,9 @@ export function useServerLicenseRequest(): {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const handleLicenseRequest = (event: Event) => {
-      const { detail } = event as CustomEvent<ServerLicenseRequestPayload>;
-
-      if (detail?.licenseNotice) {
-        setLicenseNotice({
-          totalUsers: detail.licenseNotice.totalUsers ?? null,
-          freeTierLimit: detail.licenseNotice.freeTierLimit ?? 5,
-          isOverLimit: detail.licenseNotice.isOverLimit ?? false,
-          requiresLicense: true,
-        });
-      }
-
-      setShowLicenseSlide(true);
+    const handleLicenseRequest = (_event: Event) => {
+      // Treelife: paid-plan upsell removed - never surface the license slide.
+      setShowLicenseSlide(false);
     };
 
     window.addEventListener(SERVER_LICENSE_REQUEST_EVENT, handleLicenseRequest);
