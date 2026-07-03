@@ -913,11 +913,11 @@ description = "設定選用功能。"
 title = "功能"
 
 [admin.settings.features.serverCertificate]
-description = "設定用於「以 Stirling-PDF 簽署」功能的伺服器端憑證產生"
+description = "設定用於「以 TreelifePDF 簽署」功能的伺服器端憑證產生"
 label = "伺服器憑證"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "為「以 Stirling-PDF 簽署」選項啟用伺服器端憑證"
+description = "為「以 TreelifePDF 簽署」選項啟用伺服器端憑證"
 label = "啟用伺服器憑證"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "Cookie 政策的 URL 或檔名"
 label = "Cookie 政策"
 
 [admin.settings.legal.disclaimer]
-message = "透過自訂這些法律文件，您即承擔確保遵守所有適用法律與法規的全部責任，包括但不限於 GDPR 與其他歐盟資料保護要求。僅在下列情況下修改這些設定：（1）您運作的是個人/私人部署，（2）您位於歐盟司法管轄區之外並理解當地法律義務，或（3）您已取得適當之法律意見，並同意對所有使用者資料與法遵事項負完全責任。Stirling-PDF 及其開發者對您的法律義務不承擔任何責任。"
+message = "透過自訂這些法律文件，您即承擔確保遵守所有適用法律與法規的全部責任，包括但不限於 GDPR 與其他歐盟資料保護要求。僅在下列情況下修改這些設定：（1）您運作的是個人/私人部署，（2）您位於歐盟司法管轄區之外並理解當地法律義務，或（3）您已取得適當之法律意見，並同意對所有使用者資料與法遵事項負完全責任。TreelifePDF 及其開發者對您的法律義務不承擔任何責任。"
 title = "法律責任警示"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "啟用後，只有清單中的使用者 ID 可使用機器人。"
 label = "僅允許特定使用者 ID"
 
 [admin.settings.telegram.enabled]
-description = "允許使用者透過您設定的 Telegram 機器人操作 Stirling PDF。"
+description = "允許使用者透過您設定的 Telegram 機器人操作 TreelifePDF。"
 label = "啟用 Telegram 機器人"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "這裡是 <strong>設定面板</strong>。管理設定依類
 systemCustomization = "我們提供多種自訂介面的方法：<strong>系統設定</strong> 可變更應用程式名稱與語言，<strong>功能</strong> 可管理伺服器憑證，<strong>端點</strong> 可為您的使用者啟用或停用特定工具。"
 teamsAndUsers = "在此管理 <strong>團隊</strong> 與個別使用者。您可透過電子郵件、可分享連結邀請新使用者，或自行為他們建立自訂帳號。"
 welcome = "歡迎使用 <strong>管理員導覽</strong>！一起探索提供系統管理員使用的強大企業功能與設定。"
-wrapUp = "這就是管理員導覽！您已了解讓 Stirling PDF 成為強大且可自訂之組織方案的企業功能。可隨時從 <strong>說明</strong> 功能表再次開啟本導覽。"
+wrapUp = "這就是管理員導覽！您已了解讓 TreelifePDF 成為強大且可自訂之組織方案的企業功能。可隨時從 <strong>說明</strong> 功能表再次開啟本導覽。"
 
 [adminUserSettings]
 admin = "管理員"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "了解更多"
-paragraph1 = "Stirling PDF 有選擇性的分析功能，可幫助我們改進產品。我們不會追蹤任何個人資訊或檔案內容。"
-paragraph2 = "請考慮啟用分析功能，以協助 Stirling-PDF 成長並讓我們更了解使用者需求。"
-title = "您想協助改善 Stirling PDF 嗎？"
+paragraph1 = "TreelifePDF 有選擇性的分析功能，可幫助我們改進產品。我們不會追蹤任何個人資訊或檔案內容。"
+paragraph2 = "請考慮啟用分析功能，以協助 TreelifePDF 成長並讓我們更了解使用者需求。"
+title = "您想協助改善 TreelifePDF 嗎？"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "支援 PEM、PKCS12、JKS 與伺服器憑證格式"
 bullet2 = "可選擇在 PDF 上顯示或隱藏簽章"
 bullet3 = "可新增簽署原因、位置與簽署者姓名"
 bullet4 = "可選擇放置可見簽章的頁面"
-bullet5 = "使用伺服器憑證，享有簡單的「以 Stirling PDF 簽署」選項"
+bullet5 = "使用伺服器憑證，享有簡單的「以 TreelifePDF 簽署」選項"
 text = "要簽署 PDF，您需要數位憑證（如 PEM、PKCS12 或 JKS）。您可以選擇在文件上顯示簽章或僅加入隱形簽章以提高安全性。"
 title = "新增簽章"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "升級帳號"
 [config.apiKeys]
 copyKeyAriaLabel = "複製 API 金鑰"
 description = "用於存取 Stirling 的 PDF 工具套件的 API 金鑰。將它複製到您的專案，或重新產生以建立新金鑰。"
-docsDescription = "深入了解如何與 Stirling PDF 整合："
+docsDescription = "深入了解如何與 TreelifePDF 整合："
 docsLink = "API 文件"
 docsTitle = "API 文件"
 generateError = "無法產生您的 API 金鑰。"
 goToAccount = "前往帳號"
 guestInfo = "訪客不會取得 API 金鑰。建立帳號即可取得可在您的應用程式中使用的 API 金鑰。"
-intro = "使用您的 API 金鑰以程式方式存取 Stirling PDF 的處理能力。"
+intro = "使用您的 API 金鑰以程式方式存取 TreelifePDF 的處理能力。"
 label = "API 金鑰"
 publicKeyAriaLabel = "公開 API 金鑰"
 refreshAriaLabel = "重新產生 API 金鑰"
@@ -3042,10 +3042,10 @@ title = "重新產生 API 金鑰"
 warning = "⚠️ 警告：此動作將產生新的 API 金鑰，並使您先前的金鑰失效。"
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "管理偏好設定"
 title = "我們如何使用 Cookies"
 
 [cookieBanner.popUp.description]
-1 = "我們使用 Cookies 和其他技術來讓 Stirling PDF 變得更好——幫助我們改善工具並繼續創造您會喜愛的新功能"
+1 = "我們使用 Cookies 和其他技術來讓 TreelifePDF 變得更好——幫助我們改善工具並繼續創造您會喜愛的新功能"
 2 = "如果您仍不想，點選「不，謝謝」只會開啟必要的 Cookies 好讓網站功能保持運作"
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Cookies 的用途"
 title = "喜好設定中心"
 
 [cookieBanner.preferencesModal.analytics]
-description = "這些 Cookies 幫助我們分析您如何使用我們的工具，好讓我們能專注在打造社群最重視的功能。儘管放心—— Stirling PDF 不會且永不追蹤您的文件"
+description = "這些 Cookies 幫助我們分析您如何使用我們的工具，好讓我們能專注在打造社群最重視的功能。儘管放心—— TreelifePDF 不會且永不追蹤您的文件"
 title = "分析 Cookies"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF 使用 Cookies 與其他相似技術去改善您的體驗和分析您如何使用我們的工具。這有助於我們改善效能、開發您注目的功能，和提供使用者協助。"
-2 = "Stirling PDF 不能——且永遠不會——追蹤或存取您的文件。"
+1 = "TreelifePDF 使用 Cookies 與其他相似技術去改善您的體驗和分析您如何使用我們的工具。這有助於我們改善效能、開發您注目的功能，和提供使用者協助。"
+2 = "TreelifePDF 不能——且永遠不會——追蹤或存取您的文件。"
 3 = "您的隱私和信任是我們的核心理念。"
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "設定預設 PDF 處理程式失敗"
 title = "錯誤"
 
 [defaultApp.prompt]
-message = "將 Stirling PDF 設為開啟 PDF 檔的預設應用程式。"
+message = "將 TreelifePDF 設為開啟 PDF 檔的預設應用程式。"
 
 [defaultApp.settingsOpened]
-message = "請在系統設定中選擇 Stirling PDF"
+message = "請在系統設定中選擇 TreelifePDF"
 title = "已開啟設定"
 
 [defaultApp.success]
-message = "Stirling PDF 已成為您的預設 PDF 編輯器"
+message = "TreelifePDF 已成為您的預設 PDF 編輯器"
 title = "已設為預設應用程式"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "下載或安裝更新失敗。"
 
 [desktopUpdate.blocked]
 docsLink = "檢視安裝文件"
-message = "Stirling PDF 在此裝置上沒有自行更新的權限。"
+message = "TreelifePDF 在此裝置上沒有自行更新的權限。"
 title = "需要系統管理員權限"
 
 [devAirgapped]
@@ -3852,7 +3852,7 @@ title = "移至資料夾"
 [filesPage.origin]
 all = "所有來源"
 cloud = "雲端"
-cloudHint = "儲存在 Stirling PDF 伺服器上"
+cloudHint = "儲存在 TreelifePDF 伺服器上"
 local = "本機"
 localHint = "僅儲存在此瀏覽器"
 shared = "已分享"
@@ -4116,7 +4116,7 @@ invisible = "隱藏（僅中繼資料）"
 location = "地點："
 logo = "Logo:"
 logoHidden = "無 Logo"
-logoShown = "顯示 Stirling PDF Logo"
+logoShown = "顯示 TreelifePDF Logo"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "參與者"
@@ -4170,7 +4170,7 @@ title = "依序簽署"
 dismiss = "關閉橫幅"
 message = "建立免費帳號以儲存您的工作、存取更多功能，並支援本專案。"
 signUp = "免費註冊"
-title = "您正以訪客身分使用 Stirling PDF！"
+title = "您正以訪客身分使用 TreelifePDF！"
 
 [home.addAttachments]
 desc = "在 PDF 中新增或移除內嵌檔案（附件）"
@@ -4329,7 +4329,7 @@ tags = "合併,連接,整合,combine,join,unite,merge,merge PDFs,combine PDFs,jo
 title = "合併"
 
 [home.mobile]
-brandAlt = "Stirling PDF Logo"
+brandAlt = "TreelifePDF Logo"
 openFiles = "開啟檔案"
 swipeHint = "向左或向右滑動以切換檢視"
 tools = "工具"
@@ -4368,7 +4368,7 @@ tags = "整理,重新排列,重新排序,organize,rearrange,reorder,organise,arr
 title = "整理"
 
 [home.pdfTextEditor]
-desc = "檢視與編輯 Stirling PDF 的 JSON 匯出，支援群組文字編輯與重新產生 PDF"
+desc = "檢視與編輯 TreelifePDF 的 JSON 匯出，支援群組文字編輯與重新產生 PDF"
 tags = "編輯文字,修改文字,變更文字,編輯內容,更新文字,改寫,校正,修訂,文字編輯器,內容編輯器,edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "PDF 文字編輯器"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "需要密碼"
 signIn = "登入"
 validating = "正在驗證邀請..."
 validationError = "驗證邀請連結失敗"
-welcome = "歡迎使用 Stirling PDF"
+welcome = "歡迎使用 TreelifePDF"
 welcomeSubtitle = "完成帳號設定即可開始使用"
 welcomeTitle = "您已獲邀！"
 
 [landing]
 addFiles = "新增檔案"
 heroSubtitle = "拖放或新增現有的 PDF 即可開始。"
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "從行動裝置上傳"
 openFromComputer = "從電腦開啟"
 uploadFromComputer = "從電腦上傳"
@@ -4635,7 +4635,7 @@ subtitle = "提供十多種工具，協助您遮蔽、簽署、閱讀與處理 P
 title = "編輯 PDF 以顯示/保護您想要的資訊"
 
 [login.slides.overview]
-alt = "Stirling PDF 概覽"
+alt = "TreelifePDF 概覽"
 subtitle = "以隱私為先的 PDF 雲端套件，讓您轉換、簽署、遮蔽與管理文件，並提供 50+ 種強大工具。"
 title = "滿足您所有 PDF 需求的一站式平台。"
 
@@ -4753,7 +4753,7 @@ message = "驗證未成功。您可以關閉此視窗後再試一次。"
 title = "驗證失敗"
 
 [oauth.success]
-message = "您可以關閉此視窗並回到 Stirling PDF。"
+message = "您可以關閉此視窗並回到 TreelifePDF。"
 title = "驗證成功"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "查看方案 →"
 upgrade = "立即升級 →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 隨附數十種工具與全新版面配置。快速導覽可讓您了解有哪些改變以及在哪裡找到所需功能。"
+body = "TreelifePDF V2 隨附數十種工具與全新版面配置。快速導覽可讓您了解有哪些改變以及在哪裡找到所需功能。"
 title = "導覽總覽"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF 現在已準備好支援各種規模的團隊。此更新包含全新版面、強大的新管理功能，以及大家最期待的功能 - <strong>編輯文字</strong>。"
+body = "TreelifePDF 現在已準備好支援各種規模的團隊。此更新包含全新版面、強大的新管理功能，以及大家最期待的功能 - <strong>編輯文字</strong>。"
 title = "歡迎使用 Stirling"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "最多 5 位使用者"
 usageTrackingPrometheus = "使用追蹤與 Prometheus"
 
 [plan.licenseWarning]
-body = "您有 {{total}} 位使用者，但免費層每台伺服器僅支援 {{limit}} 位。升級以保持 Stirling PDF 運作順暢。"
+body = "您有 {{total}} 位使用者，但免費層每台伺服器僅支援 {{limit}} 位。升級以保持 TreelifePDF 運作順暢。"
 cta = "查看方案"
 overLimit = "多於 {{limit}}"
 title = "自託管免費上限已達"
@@ -6704,8 +6704,8 @@ hideTools = "隱藏無法使用的工具 ▴"
 messageNoFallback = "在您的伺服器恢復連線前，這些工具無法使用。"
 messageWithFallback = "部分工具需要伺服器連線。"
 showTools = "檢視無法使用的工具 ▾"
-title = "無法連線至您的 Stirling-PDF 伺服器"
-toolNotAvailableLocally = "您的 Stirling-PDF 伺服器已離線，且本機後端無法使用「{{endpoint}}」。"
+title = "無法連線至您的 TreelifePDF 伺服器"
+toolNotAvailableLocally = "您的 TreelifePDF 伺服器已離線，且本機後端無法使用「{{endpoint}}」。"
 
 [session]
 expired = "您的工作階段已過期。請重新整理頁面並再試一次。"
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "從 ZIP 解壓縮的最大檔案數"
 autoUnzipFileLimitTooltip = "僅在 ZIP 含有不超過此數量的檔案時解壓縮。提高數值可解壓較大的 ZIP。"
 autoUnzipTooltip = "自動解壓縮 API 操作回傳的 ZIP 檔案。停用以保留 ZIP 檔不變。這不會影響自動化工作流程。"
 defaultPdfEditor = "預設 PDF 編輯器"
-defaultPdfEditorActive = "Stirling PDF 是您的預設 PDF 編輯器"
+defaultPdfEditorActive = "TreelifePDF 是您的預設 PDF 編輯器"
 defaultPdfEditorChecking = "正在檢查..."
 defaultPdfEditorInactive = "已由其他應用程式設為預設"
 defaultPdfEditorSet = "已是預設"
@@ -6841,7 +6841,7 @@ updateBehavior = "更新行為"
 updateBehaviorDescription = "選擇是否在安裝更新前提示、自動安裝，或完全略過更新檢查。"
 updateBehaviorError = "無法變更更新行為"
 updateBehaviorErrorLocked = "此設定已由管理員鎖定。"
-updateBehaviorLockedDescription = "您的管理員已設定 Stirling PDF 在此裝置上的更新處理方式。若要變更，請與其聯絡。"
+updateBehaviorLockedDescription = "您的管理員已設定 TreelifePDF 在此裝置上的更新處理方式。若要變更，請與其聯絡。"
 updateBehaviorSaved = "已儲存更新行為。"
 versionMismatch = "警告：偵測到客戶端版本與 AppConfig 版本不一致。使用不同版本可能導致相容性問題、錯誤及安全風險。請確保伺服器與客戶端使用相同版本。"
 viewDetails = "檢視詳細資料"
@@ -7074,7 +7074,7 @@ step3 = "重新啟動伺服器"
 title = "未啟用登入"
 
 [setup.server.url]
-description = "輸入您自託管 Stirling PDF 伺服器的完整 URL"
+description = "輸入您自託管 TreelifePDF 伺服器的完整 URL"
 label = "伺服器 URL"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "請填寫所有欄位"
 signUp = "註冊"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "加入 Stirling PDF 以開始使用"
+subtitle = "加入 TreelifePDF 以開始使用"
 title = "建立帳號"
 unexpectedError = "未預期的錯誤：{{message}}"
 
@@ -7512,7 +7512,7 @@ download = "下載"
 downloaded = "已下載"
 downloadFailed = "無法下載此檔案。"
 downloadsCount = "下載次數：{{count}}"
-emailWarningBody = "此輸入看起來像是電子郵件地址。如果此人尚未成為 Stirling PDF 使用者，將無法存取該檔案。"
+emailWarningBody = "此輸入看起來像是電子郵件地址。如果此人尚未成為 TreelifePDF 使用者，將無法存取該檔案。"
 emailWarningConfirm = "仍要共用"
 emailWarningTitle = "電子郵件地址"
 errorTitle = "共用失敗"
@@ -7543,7 +7543,7 @@ manageTitle = "管理共用"
 noActivity = "尚無活動記錄。"
 noLinks = "尚無有效的共用連結。"
 noSharedUsers = "目前尚無使用者擁有存取權限。"
-openInApp = "在 Stirling PDF 中開啟"
+openInApp = "在 TreelifePDF 中開啟"
 ownerLabel = "擁有者"
 ownerOnly = "只有擁有者可管理共用。"
 ownerUnknown = "未知"
@@ -7593,7 +7593,7 @@ updateButton = "更新至伺服器"
 uploadButton = "上傳至伺服器"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,文件,swagger,端點,開發"
@@ -7718,7 +7718,7 @@ favorites = "我的最愛"
 heading = "所有工具（全螢幕檢視）"
 noResults = "嘗試調整搜尋或切換說明以找到所需內容。"
 recommended = "建議"
-selfHostedOffline = "需要您的 Stirling-PDF 伺服器（目前離線）："
+selfHostedOffline = "需要您的 TreelifePDF 伺服器（目前離線）："
 showDetails = "顯示詳細資料"
 unavailable = "已被伺服器管理員停用："
 unavailableDependency = "無法使用 - 伺服器缺少必要工具："
@@ -7727,7 +7727,7 @@ unfavorite = "從我的最愛移除"
 [toolPanel.modePrompt]
 chooseFullscreen = "使用全螢幕模式"
 chooseSidebar = "使用側邊欄模式"
-description = "預覽兩種版面，決定如何瀏覽 Stirling PDF 工具。"
+description = "預覽兩種版面，決定如何瀏覽 TreelifePDF 工具。"
 dismiss = "稍後再說"
 fullscreenDescription = "在覆蓋工作區的工具目錄中瀏覽所有工具，直到選定為止。"
 fullscreenTitle = "全螢幕模式 -（舊版）"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "正在載入詳細資訊..."
 migrationGuide = "遷移指南"
 migrationGuides = "遷移指南"
 migrationGuidesDesc = "更新前請先檢閱重要變更。"
-modalSubtitle = "新版 Stirling PDF 已準備好安裝。"
+modalSubtitle = "新版 TreelifePDF 已準備好安裝。"
 modalTitle = "有可用更新"
 notes = "發行說明"
 releaseNotes = "版本資訊"
@@ -7821,7 +7821,7 @@ urgent = "緊急"
 attentionBody = "您的管理員需要登入以查看更多資訊。請立即聯絡他們。"
 attentionBodyAdmin = "請檢視授權需求以維持此伺服器合規。"
 attentionTitle = "此伺服器需要管理員關注"
-message = "以不限人數與進階功能，充分運用 Stirling PDF"
+message = "以不限人數與進階功能，充分運用 TreelifePDF"
 seeInfo = "查看資訊"
 title = "升級至 Server 方案"
 upgradeButton = "立即升級"
@@ -7932,7 +7932,7 @@ continued = "續"
 downloads = "下載"
 entryLabel = "簽章摘要"
 filesEvaluated = "已評估 {{count}} 個檔案"
-footer = "透過 Stirling PDF 驗證"
+footer = "透過 TreelifePDF 驗證"
 generatedAt = "產生時間"
 noPdf = "成功驗證後將提供 PDF 報告。"
 page = "頁"

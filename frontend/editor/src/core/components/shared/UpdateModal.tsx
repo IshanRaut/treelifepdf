@@ -256,7 +256,7 @@ const UpdateModal: React.FC<UpdateModalProps> = ({
               <Text size="sm" c="dimmed" mt={2}>
                 {t(
                   "update.modalSubtitle",
-                  "A new version of Stirling-PDF is ready to install.",
+                  "A new version of TreelifePDF is ready to install.",
                 )}
               </Text>
             </Box>
@@ -377,7 +377,7 @@ const UpdateModal: React.FC<UpdateModalProps> = ({
               <Text size="sm">
                 {t(
                   "desktopUpdate.blocked.message",
-                  "Stirling-PDF does not have permission to update itself on this machine.",
+                  "TreelifePDF does not have permission to update itself on this machine.",
                 )}{" "}
                 <Anchor
                   href={WINDOWS_INSTALL_DOCS_URL}

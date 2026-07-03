@@ -913,11 +913,11 @@ description = "Cumraigh gnéithe roghnacha agus feidhmiúlacht."
 title = "Gnéithe"
 
 [admin.settings.features.serverCertificate]
-description = "Cumraigh giniúint deimhnithe ar thaobh an fhreastalaí don fheidhmiúlacht \"Sínigh le Stirling-PDF\""
+description = "Cumraigh giniúint deimhnithe ar thaobh an fhreastalaí don fheidhmiúlacht \"Sínigh le TreelifePDF\""
 label = "Deimhniú Freastalaí"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Cumasaigh deimhniú taobh an fhreastalaí don rogha \"Sínigh le Stirling-PDF\""
+description = "Cumasaigh deimhniú taobh an fhreastalaí don rogha \"Sínigh le TreelifePDF\""
 label = "Cumasaigh Deimhniú Freastalaí"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "URL nó ainm comhaid do bheartas fianán"
 label = "Beartas Fianán"
 
 [admin.settings.legal.disclaimer]
-message = "Trí na doiciméid dhlíthiúla seo a shaincheapadh, glacann tú freagracht iomlán as comhlíonadh a chinntiú le gach dlí agus rialachán i bhfeidhm, lena n‑áirítear ach gan a bheith teoranta do GDPR agus ceanglais chosanta sonraí AE eile. Ná modhnaigh na socruithe seo ach amháin má: (1) tá cás pearsanta/príobháideach á rith agat, (2) tá tú lasmuigh de dhlínse an AE agus tuigeann tú do chuid dualgas dlíthiúil áitiúil, nó (3) tá comhairle dhlí chuí faighte agat agus glacann tú leat freagracht iomlán as sonraí úsáideoirí agus comhlíonadh dlíthiúil. Ní ghlacann Stirling-PDF ná a fhorbróirí aon dliteanas as do chuid dualgas dlíthiúil."
+message = "Trí na doiciméid dhlíthiúla seo a shaincheapadh, glacann tú freagracht iomlán as comhlíonadh a chinntiú le gach dlí agus rialachán i bhfeidhm, lena n‑áirítear ach gan a bheith teoranta do GDPR agus ceanglais chosanta sonraí AE eile. Ná modhnaigh na socruithe seo ach amháin má: (1) tá cás pearsanta/príobháideach á rith agat, (2) tá tú lasmuigh de dhlínse an AE agus tuigeann tú do chuid dualgas dlíthiúil áitiúil, nó (3) tá comhairle dhlí chuí faighte agat agus glacann tú leat freagracht iomlán as sonraí úsáideoirí agus comhlíonadh dlíthiúil. Ní ghlacann TreelifePDF ná a fhorbróirí aon dliteanas as do chuid dualgas dlíthiúil."
 title = "Rabhadh Freagrachta Dlí"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Nuair a chumasaítear é, ní féidir ach leis na IDanna úsáide
 label = "Ceadaigh IDanna Úsáideora Sonracha"
 
 [admin.settings.telegram.enabled]
-description = "Ceadaigh d’úsáideoirí idirghníomhú le Stirling PDF tríd do bot Telegram cumraithe."
+description = "Ceadaigh d’úsáideoirí idirghníomhú le TreelifePDF tríd do bot Telegram cumraithe."
 label = "Cumasaigh Bot Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "Seo é an <strong>Painéal Socruithe</strong>. Tá socruithe
 systemCustomization = "Tá bealaí fairsinge againn chun an comhéadan úsáideora a shaincheapadh: Ligeann <strong>Socruithe Córais</strong> duit ainm agus teangacha an aip a athrú, ceadaíonn <strong>Gnéithe</strong> bainistíocht teastais freastalaí, agus ligeann <strong>Deireadhphointí</strong> duit uirlisí sonracha a chumasú nó a dhíchumasú do d'úsáideoirí."
 teamsAndUsers = "Bainistigh <strong>Foirne</strong> agus úsáideoirí aonair anseo. Is féidir leat úsáideoirí nua a thabhairt isteach trí r-phost, naisc inroinnte, nó cuntais shaincheaptha a chruthú dóibh tú féin."
 welcome = "Fáilte go dtí an <strong>Turas Riaracháin</strong>! Déanaimis iniúchadh ar na gnéithe agus na socruithe cumhachtacha fiontraíochta atá ar fáil do riarthóirí córais."
-wrapUp = "Sin é an turas riaracháin! Chonaic tú na gnéithe fiontraíochta a dhéanann Stirling PDF ina réiteach cumhachtach, saincheaptha d’eagraíochtaí. Is féidir an turas seo a rochtain am ar bith ón roghchlár <strong>Cabhair</strong>."
+wrapUp = "Sin é an turas riaracháin! Chonaic tú na gnéithe fiontraíochta a dhéanann TreelifePDF ina réiteach cumhachtach, saincheaptha d’eagraíochtaí. Is féidir an turas seo a rochtain am ar bith ón roghchlár <strong>Cabhair</strong>."
 
 [adminUserSettings]
 admin = "Riarachán"
@@ -1594,7 +1594,7 @@ stirling_name = "Stirling"
 [analytics]
 learnMore = "Tuilleadh eolais"
 paragraph1 = "Tá rogha an diúltaithe ag PDF Stirling chun cabhrú linn an táirge a fheabhsú. Ní rianaimid aon fhaisnéis phearsanta nó ábhar comhaid."
-paragraph2 = "Smaoinigh le do thoil ar anailísíocht a chumasú chun cabhrú le Stirling-PDF fás agus chun ligean dúinn ár n-úsáideoirí a thuiscint níos fearr."
+paragraph2 = "Smaoinigh le do thoil ar anailísíocht a chumasú chun cabhrú le TreelifePDF fás agus chun ligean dúinn ár n-úsáideoirí a thuiscint níos fearr."
 title = "An bhfuil fonn ort PDF Stirling a fheabhsú?"
 
 [annotate]
@@ -2498,7 +2498,7 @@ bullet1 = "Tacaíonn sé le formáidí PEM, PKCS12, JKS agus teastas an fhreasta
 bullet2 = "Rogha an síniú a thaispeáint nó a cheilt ar an PDF"
 bullet3 = "Cuir cúis, suíomh, agus ainm an tsíní leis"
 bullet4 = "Roghnaigh cén leathanach a gcuirfear sínithe infheicthe air"
-bullet5 = "Úsáid teastas an fhreastalaí don rogha shimplí 'Sign with Stirling-PDF'"
+bullet5 = "Úsáid teastas an fhreastalaí don rogha shimplí 'Sign with TreelifePDF'"
 text = "Chun PDF a shíniú, teastaíonn teastas digiteach uait (mar PEM, PKCS12, nó JKS). Is féidir leat an síniú a dhéanamh infheicthe ar an doiciméad nó é a choinneáil dofheicthe ar mhaithe le slándáil amháin."
 title = "Sínithe a Chur Leis"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "Uasghrádaigh an Cuntas"
 [config.apiKeys]
 copyKeyAriaLabel = "Cóipeáil eochair API"
 description = "Do eochair API chun rochtain a fháil ar shraith uirlisí PDF Stirling. Cóipeáil chuig do thionscadal í nó déan athnuachan chun ceann nua a ghiniúint."
-docsDescription = "Tuilleadh eolais faoi chomhtháthú le Stirling PDF:"
+docsDescription = "Tuilleadh eolais faoi chomhtháthú le TreelifePDF:"
 docsLink = "Doiciméadú API"
 docsTitle = "Doiciméadú API"
 generateError = "Níor éirigh linn d’eochair API a ghiniúint."
 goToAccount = "Téigh chuig an gCuntas"
 guestInfo = "Ní fhaigheann úsáideoirí aíochta eochracha API. Cruthaigh cuntas chun eochair API a fháil is féidir leat a úsáid i d’fheidhmchláir."
-intro = "Úsáid do eochair API chun rochtain ríomhchláraithe a fháil ar chumais phróiseála Stirling PDF."
+intro = "Úsáid do eochair API chun rochtain ríomhchláraithe a fháil ar chumais phróiseála TreelifePDF."
 label = "Eochair API"
 publicKeyAriaLabel = "Eochair API phoiblí"
 refreshAriaLabel = "Athnuaigh eochair API"
@@ -3042,10 +3042,10 @@ title = "Athnuaigh Eochracha API"
 warning = "⚠️ Rabhadh: Ginfidh an gníomh seo eochracha API nua agus déanfaidh sé do chuid eochracha roimhe seo neamhbhailí."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Bainistigh sainroghanna"
 title = "Conas a Úsáidimid Fianáin"
 
 [cookieBanner.popUp.description]
-1 = "Úsáidimid fianáin agus teicneolaíochtaí eile chun Stirling PDF a dhéanamh níos fearr duit—ag cabhrú linn ár n-uirlisí a fheabhsú agus gnéithe a thógáil a thaitneoidh leat."
+1 = "Úsáidimid fianáin agus teicneolaíochtaí eile chun TreelifePDF a dhéanamh níos fearr duit—ag cabhrú linn ár n-uirlisí a fheabhsú agus gnéithe a thógáil a thaitneoidh leat."
 2 = "Mura mian leat, ní chuirfear ar chumas ach na fianáin riachtanacha atá riachtanach chun go n-oibreoidh rudaí go réidh má chliceálann tú ar 'Níl Go raibh maith agat'."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Úsáid Fianáin"
 title = "Lárionad Sainroghanna Toilithe"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cuidíonn na fianáin seo linn a thuiscint conas a úsáidtear ár n-uirlisí, ionas gur féidir linn díriú ar na gnéithe is tábhachtaí dár bpobal a thógáil. Bí cinnte—ní féidir le Stirling PDF agus ní dhéanfaidh sé riamh ábhar na ndoiciméad a n-oibríonn tú leo a rianú."
+description = "Cuidíonn na fianáin seo linn a thuiscint conas a úsáidtear ár n-uirlisí, ionas gur féidir linn díriú ar na gnéithe is tábhachtaí dár bpobal a thógáil. Bí cinnte—ní féidir le TreelifePDF agus ní dhéanfaidh sé riamh ábhar na ndoiciméad a n-oibríonn tú leo a rianú."
 title = "Anailísíocht"
 
 [cookieBanner.preferencesModal.description]
-1 = "Úsáideann Stirling PDF fianáin agus teicneolaíochtaí cosúil leo chun do thaithí a fheabhsú agus chun tuiscint a fháil ar conas a úsáidtear ár n-uirlisí. Cabhraíonn sé seo linn feidhmíocht a fheabhsú, na gnéithe a bhfuil cúram agat fúthu a fhorbairt, agus tacaíocht leanúnach a sholáthar dár n-úsáideoirí."
-2 = "Ní féidir le Stirling PDF—agus ní dhéanfaidh sé riamh—ábhar na ndoiciméad a úsáideann tú a rianú ná a rochtain."
+1 = "Úsáideann TreelifePDF fianáin agus teicneolaíochtaí cosúil leo chun do thaithí a fheabhsú agus chun tuiscint a fháil ar conas a úsáidtear ár n-uirlisí. Cabhraíonn sé seo linn feidhmíocht a fheabhsú, na gnéithe a bhfuil cúram agat fúthu a fhorbairt, agus tacaíocht leanúnach a sholáthar dár n-úsáideoirí."
+2 = "Ní féidir le TreelifePDF—agus ní dhéanfaidh sé riamh—ábhar na ndoiciméad a úsáideann tú a rianú ná a rochtain."
 3 = "Tá do phríobháideachas agus do mhuinín i gcroílár ár gcuid oibre."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "Theip ar shocrú láimhseálaí PDF réamhshocraithe"
 title = "Earráid"
 
 [defaultApp.prompt]
-message = "Déan Stirling PDF mar d’fheidhmchlár réamhshocraithe chun comhaid PDF a oscailt."
+message = "Déan TreelifePDF mar d’fheidhmchlár réamhshocraithe chun comhaid PDF a oscailt."
 
 [defaultApp.settingsOpened]
-message = "Roghnaigh Stirling PDF i socruithe do chórais"
+message = "Roghnaigh TreelifePDF i socruithe do chórais"
 title = "Socruithe Oscailte"
 
 [defaultApp.success]
-message = "Is é Stirling PDF d’eagarthóir PDF réamhshocraithe anois"
+message = "Is é TreelifePDF d’eagarthóir PDF réamhshocraithe anois"
 title = "Aip Réamhshocraithe Socraithe"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "Theip ar íoslódáil nó ar shuiteáil an nuashonraithe.
 
 [desktopUpdate.blocked]
 docsLink = "Féach ar dhoiciméadú suiteála"
-message = "Níl cead ag Stirling-PDF é féin a nuashonrú ar an meaisín seo."
+message = "Níl cead ag TreelifePDF é féin a nuashonrú ar an meaisín seo."
 title = "Teastaíonn ceadanna riarthóra"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Dofheicthe (meiteashonraí amháin)"
 location = "Suíomh:"
 logo = "Lógó:"
 logoHidden = "Gan lógó"
-logoShown = "Lógó Stirling PDF le feiceáil"
+logoShown = "Lógó TreelifePDF le feiceáil"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Rannpháirtithe"
@@ -4170,7 +4170,7 @@ title = "Sínithe Seicheamhach"
 dismiss = "Dún an meirge"
 message = "Cruthaigh cuntas saor in aisce chun do chuid oibre a shábháil, rochtain a fháil ar níos mó gnéithe, agus tacú leis an tionscadal."
 signUp = "Cláraigh saor in aisce"
-title = "Tá tú ag úsáid Stirling PDF mar aoi!"
+title = "Tá tú ag úsáid TreelifePDF mar aoi!"
 
 [home.addAttachments]
 desc = "Cuir comhaid leabaithe (iatáin) le PDF nó bain iad"
@@ -4329,7 +4329,7 @@ tags = "cumaisc,ceangail,aontaigh"
 title = "Cumaisc"
 
 [home.mobile]
-brandAlt = "Lógó Stirling PDF"
+brandAlt = "Lógó TreelifePDF"
 openFiles = "Oscail comhaid"
 swipeHint = "Svaidhpeáil ar chlé nó ar dheis chun radhairc a athrú"
 tools = "Uirlisí"
@@ -4550,14 +4550,14 @@ passwordRequired = "Tá focal faire riachtanach"
 signIn = "Sínigh isteach"
 validating = "Cuireadh á bhailíochtú..."
 validationError = "Theip ar bhailíochtú an naisc chuireadh"
-welcome = "Fáilte go Stirling PDF"
+welcome = "Fáilte go TreelifePDF"
 welcomeSubtitle = "Críochnaigh socrú do chuntais chun tosú"
 welcomeTitle = "Tugadh cuireadh duit!"
 
 [landing]
 addFiles = "Cuir Comhaid Leis"
 heroSubtitle = "Scaoil isteach nó cuir PDF atá ann cheana leis chun tosú."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Uaslódáil ó Shoghluaiste"
 openFromComputer = "Oscail ón ríomhaire"
 uploadFromComputer = "Uaslódáil ón ríomhaire"
@@ -4635,7 +4635,7 @@ subtitle = "Le breis agus dosaen uirlis chun cabhrú leat PDFanna a dhubhú, a s
 title = "Cuir PDFanna in eagar chun an t-eolas is mian leat a thaispeáint nó a dhaingniú"
 
 [login.slides.overview]
-alt = "Forbhreathnú Stirling PDF"
+alt = "Forbhreathnú TreelifePDF"
 subtitle = "Sraith néal-bhunaithe le príobháideachas ar dtús do PDFanna a ligeann duit tiontú, síniú, dubhú agus bainistiú a dhéanamh ar cháipéisí, móide 50+ uirlis chumhachtach eile."
 title = "Do shiopa aon-stad do gach riachtanas PDF."
 
@@ -4753,7 +4753,7 @@ message = "Níor éirigh leis an bhfíordheimhniú. Is féidir leat an fhuinneog
 title = "Theip ar an bhfíordheimhniú"
 
 [oauth.success]
-message = "Is féidir leat an fhuinneog seo a dhúnadh agus filleadh ar Stirling PDF."
+message = "Is féidir leat an fhuinneog seo a dhúnadh agus filleadh ar TreelifePDF."
 title = "Fíordheimhniú Rathúil"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Féach ar Phleananna →"
 upgrade = "Uasghrádaigh anois →"
 
 [onboarding.tourOverview]
-body = "Tagann Stirling PDF V2 le mórán uirlisí agus leagan amach athnuaite. Tabhair cuairt ghearr chun a fheiceáil cad a d'athraigh agus cá háit le fáil na gnéithe atá uait."
+body = "Tagann TreelifePDF V2 le mórán uirlisí agus leagan amach athnuaite. Tabhair cuairt ghearr chun a fheiceáil cad a d'athraigh agus cá háit le fáil na gnéithe atá uait."
 title = "Forbhreathnú ar an Turas"
 
 [onboarding.welcomeSlide]
-body = "Tá Stirling PDF réidh anois do fhoirne de gach méid. Cuimsíonn an nuashonrú seo leagan amach nua, cumais riaracháin chumhachtacha nua, agus ár ngné is mó a iarradh - <strong>Cuir Téacs in Eagar</strong>."
+body = "Tá TreelifePDF réidh anois do fhoirne de gach méid. Cuimsíonn an nuashonrú seo leagan amach nua, cumais riaracháin chumhachtacha nua, agus ár ngné is mó a iarradh - <strong>Cuir Téacs in Eagar</strong>."
 title = "Fáilte go Stirling"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "Suas le 5 úsáideoir"
 usageTrackingPrometheus = "Rianú úsáide & Prometheus"
 
 [plan.licenseWarning]
-body = "Tá {{total}} úsáideoir agat ach ní thacaíonn an sraith saor in aisce ach le {{limit}} in aghaidh an fhreastalaí. Uasghrádaigh chun Stirling PDF a choinneáil ag rith go réidh."
+body = "Tá {{total}} úsáideoir agat ach ní thacaíonn an sraith saor in aisce ach le {{limit}} in aghaidh an fhreastalaí. Uasghrádaigh chun TreelifePDF a choinneáil ag rith go réidh."
 cta = "Féach ar phleananna"
 overLimit = "níos mó ná {{limit}}"
 title = "Sroichtear teorainn féin-óstáilte saor in aisce"
@@ -6704,8 +6704,8 @@ hideTools = "Folaigh uirlisí nach bhfuil ar fáil ▴"
 messageNoFallback = "Ní bheidh uirlisí ar fáil go dtí go mbeidh do fhreastalaí ar líne arís."
 messageWithFallback = "Teastaíonn ceangal le freastalaí ó chuid d’uirlisí."
 showTools = "Féach uirlisí nach bhfuil ar fáil ▾"
-title = "Ní féidir do fhreastalaí Stirling-PDF a bhaint amach"
-toolNotAvailableLocally = "Tá do fhreastalaí Stirling-PDF as líne agus níl \"{{endpoint}}\" ar fáil ar an gcúlcheann áitiúil."
+title = "Ní féidir do fhreastalaí TreelifePDF a bhaint amach"
+toolNotAvailableLocally = "Tá do fhreastalaí TreelifePDF as líne agus níl \"{{endpoint}}\" ar fáil ar an gcúlcheann áitiúil."
 
 [session]
 expired = "Tá do sheisiún imithe in éag. Athnuaigh an leathanach agus bain triail eile as."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "Uasmhéid comhad le baint as ZIP"
 autoUnzipFileLimitTooltip = "Dífhuascail ach amháin má tá an oiread seo comhad sa ZIP nó níos lú. Socraigh níos airde chun ZIPanna níos mó a bhaint."
 autoUnzipTooltip = "Baineann sé comhaid ZIP a fhilleann ó oibríochtaí API go huathoibríoch. Díchumasaigh chun comhaid ZIP a choinneáil slán. Ní théann sé seo i bhfeidhm ar shreafaí oibre uathoibrithe."
 defaultPdfEditor = "Eagarthóir PDF réamhshocraithe"
-defaultPdfEditorActive = "Is é Stirling PDF d’eagarthóir PDF réamhshocraithe"
+defaultPdfEditorActive = "Is é TreelifePDF d’eagarthóir PDF réamhshocraithe"
 defaultPdfEditorChecking = "Á sheiceáil..."
 defaultPdfEditorInactive = "Tá feidhmchlár eile socraithe mar réamhshocrú"
 defaultPdfEditorSet = "Réamhshocraithe Cheana"
@@ -6841,7 +6841,7 @@ updateBehavior = "Iompar nuashonruithe"
 updateBehaviorDescription = "Roghnaigh an dtabharfar leid roimh shuiteáil nuashonruithe, an suiteálfar go huathoibríoch iad, nó an scipeálfar seiceálacha nuashonraithe go hiomlán."
 updateBehaviorError = "Níorbh fhéidir iompar an nuashonraithe a athrú"
 updateBehaviorErrorLocked = "Tá an socrú seo faoi ghlas ag do riarthóir."
-updateBehaviorLockedDescription = "Tá do riarthóir tar éis a chumrú conas a láimhseálann Stirling-PDF nuashonruithe ar an meaisín seo. Déan teagmháil leo chun é seo a athrú."
+updateBehaviorLockedDescription = "Tá do riarthóir tar éis a chumrú conas a láimhseálann TreelifePDF nuashonruithe ar an meaisín seo. Déan teagmháil leo chun é seo a athrú."
 updateBehaviorSaved = "Sábháladh iompar an nuashonraithe."
 versionMismatch = "Warning: A mismatch has been detected between the client version and the AppConfig version. Using different versions can lead to compatibility issues, errors, and security risks. Please ensure that server and client are using the same version."
 viewDetails = "Féach Sonraí"
@@ -7074,7 +7074,7 @@ step3 = "Atosaigh an freastalaí"
 title = "Níl an Logáil Isteach Cumasaithe"
 
 [setup.server.url]
-description = "Cuir isteach URL iomlán do fhreastalaí Stirling PDF féin-óstáilte"
+description = "Cuir isteach URL iomlán do fhreastalaí TreelifePDF féin-óstáilte"
 label = "URL an fhreastalaí"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Líon isteach na réimsí go léir, le do thoil"
 signUp = "Cláraigh"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Bí le Stirling PDF chun tosú"
+subtitle = "Bí le TreelifePDF chun tosú"
 title = "Cruthaigh cuntas"
 unexpectedError = "Earráid gan choinne: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "Íoslódáil"
 downloaded = "Íosluchtaithe"
 downloadFailed = "Níorbh fhéidir an comhad seo a íoslódáil."
 downloadsCount = "Íoslódálacha: {{count}}"
-emailWarningBody = "Is cosúil gur seoladh ríomhphoist é seo. Mura bhfuil an duine seo ina úsáideoir Stirling PDF cheana, ní bheidh sé in ann rochtain a fháil ar an gcomhad."
+emailWarningBody = "Is cosúil gur seoladh ríomhphoist é seo. Mura bhfuil an duine seo ina úsáideoir TreelifePDF cheana, ní bheidh sé in ann rochtain a fháil ar an gcomhad."
 emailWarningConfirm = "Comhroinn mar sin féin"
 emailWarningTitle = "Seoladh ríomhphoist"
 errorTitle = "Theip ar chomhroinnt"
@@ -7543,7 +7543,7 @@ manageTitle = "Bainistigh Comhroinnt"
 noActivity = "Níl aon ghníomhaíocht fós."
 noLinks = "Níl aon naisc chomhroinnte gníomhacha fós."
 noSharedUsers = "Níl aon úsáideoirí le rochtain fós."
-openInApp = "Oscail i Stirling PDF"
+openInApp = "Oscail i TreelifePDF"
 ownerLabel = "Úinéir"
 ownerOnly = "Ní féidir ach leis an úinéir roinnt a bhainistiú."
 ownerUnknown = "Anaithnid"
@@ -7593,7 +7593,7 @@ updateButton = "Nuashonraigh ar an bhfreastalaí"
 uploadButton = "Uaslódáil chuig an bhfreastalaí"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,doiciméadú,swagger,críochphointí,forbairt"
@@ -7718,7 +7718,7 @@ favorites = "Ceanáin"
 heading = "Gach uirlis (radharc lánscáileáin)"
 noResults = "Bain triail as do chuardach a choigeartú nó tuairiscí a scoránaigh chun an rud atá uait a aimsiú."
 recommended = "Molta"
-selfHostedOffline = "Teastaíonn do fhreastalaí Stirling-PDF uaidh (faoi láthair as líne):"
+selfHostedOffline = "Teastaíonn do fhreastalaí TreelifePDF uaidh (faoi láthair as líne):"
 showDetails = "Taispeáin Sonraí"
 unavailable = "Díchumasaithe ag riarthóir freastalaí:"
 unavailableDependency = "Níl ar fáil - uirlis riachtanach ar iarraidh ar an bhfreastalaí:"
@@ -7727,7 +7727,7 @@ unfavorite = "Bain den Cheanáin"
 [toolPanel.modePrompt]
 chooseFullscreen = "Úsáid mód lánscáileáin"
 chooseSidebar = "Úsáid mód barra taoibh"
-description = "Réamhamharc ar an dá leagan amach agus socraigh conas is mian leat uirlisí Stirling PDF a iniúchadh."
+description = "Réamhamharc ar an dá leagan amach agus socraigh conas is mian leat uirlisí TreelifePDF a iniúchadh."
 dismiss = "B'fhéidir níos déanaí"
 fullscreenDescription = "Brabhsáil gach uirlis i gcatalóg a chlúdaíonn an spás oibre go dtí go roghnaíonn tú ceann."
 fullscreenTitle = "Mód lánscáileáin - (oidhreachta)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Ag lódáil eolas mionsonraithe..."
 migrationGuide = "Treoir Imirce"
 migrationGuides = "Treoracha Imirce"
 migrationGuidesDesc = "Athbhreithnigh na hathruithe tábhachtacha sula nuashonraítear."
-modalSubtitle = "Tá leagan nua de Stirling PDF réidh le suiteáil."
+modalSubtitle = "Tá leagan nua de TreelifePDF réidh le suiteáil."
 modalTitle = "Nuashonrú ar Fáil"
 notes = "Nótaí"
 releaseNotes = "Nótaí Eisiúna"
@@ -7821,7 +7821,7 @@ urgent = "Práinneach"
 attentionBody = "Ní mór do d’riarthóir síniú isteach chun tuilleadh eolais a fheiceáil. Déan teagmháil leo láithreach."
 attentionBodyAdmin = "Athbhreithnigh na riachtanais ceadúnais chun an freastalaí seo a choinneáil comhlíontach."
 attentionTitle = "Teastaíonn aird riarthóra ón bhfreastalaí seo"
-message = "Bain an leas is fearr as Stirling PDF le húsáideoirí neamhtheoranta agus gnéithe ardleibhéil"
+message = "Bain an leas is fearr as TreelifePDF le húsáideoirí neamhtheoranta agus gnéithe ardleibhéil"
 seeInfo = "Féach eolas"
 title = "Uasghrádaigh go Plean Freastalaí"
 upgradeButton = "Uasghrádaigh Anois"
@@ -7932,7 +7932,7 @@ continued = "Ar lean"
 downloads = "Íoslódálacha"
 entryLabel = "Achoimre ar Shínithe"
 filesEvaluated = "Measúnaíodh {{count}} comhad"
-footer = "Bailíochtaithe trí Stirling PDF"
+footer = "Bailíochtaithe trí TreelifePDF"
 generatedAt = "Ginte"
 noPdf = "Beidh tuarascáil PDF ar fáil tar éis bailíochtaithe rathúla."
 page = "Leathanach"

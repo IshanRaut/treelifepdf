@@ -913,11 +913,11 @@ description = "Választható funkciók és képességek konfigurálása."
 title = "Funkciók"
 
 [admin.settings.features.serverCertificate]
-description = "Szerveroldali tanúsítvány létrehozásának konfigurálása a \"Sign with Stirling-PDF\" funkcióhoz"
+description = "Szerveroldali tanúsítvány létrehozásának konfigurálása a \"Sign with TreelifePDF\" funkcióhoz"
 label = "Szerver tanúsítvány"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Szerveroldali tanúsítvány engedélyezése a \"Sign with Stirling-PDF\" opcióhoz"
+description = "Szerveroldali tanúsítvány engedélyezése a \"Sign with TreelifePDF\" opcióhoz"
 label = "Szerver tanúsítvány engedélyezése"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "URL vagy fájlnév a cookie-szabályzathoz"
 label = "Cookie-szabályzat"
 
 [admin.settings.legal.disclaimer]
-message = "Ezen jogi dokumentumok testreszabásával teljes felelősséget vállal a vonatkozó jogszabályoknak és előírásoknak való megfelelés biztosításáért, beleértve, de nem kizárólag a GDPR-t és más EU-s adatvédelmi követelményeket. Csak akkor módosítsa ezeket a beállításokat, ha: (1) személyes/privát példányt üzemeltet, (2) az EU joghatóságán kívül van és tisztában van helyi jogi kötelezettségeivel, vagy (3) megfelelő jogi tanácsot szerzett, és elfogadja az egyedüli felelősséget minden felhasználói adatért és a jogszabályoknak való megfelelésért. A Stirling-PDF és fejlesztői nem vállalnak felelősséget az Ön jogi kötelezettségeiért."
+message = "Ezen jogi dokumentumok testreszabásával teljes felelősséget vállal a vonatkozó jogszabályoknak és előírásoknak való megfelelés biztosításáért, beleértve, de nem kizárólag a GDPR-t és más EU-s adatvédelmi követelményeket. Csak akkor módosítsa ezeket a beállításokat, ha: (1) személyes/privát példányt üzemeltet, (2) az EU joghatóságán kívül van és tisztában van helyi jogi kötelezettségeivel, vagy (3) megfelelő jogi tanácsot szerzett, és elfogadja az egyedüli felelősséget minden felhasználói adatért és a jogszabályoknak való megfelelésért. A TreelifePDF és fejlesztői nem vállalnak felelősséget az Ön jogi kötelezettségeiért."
 title = "Jogi felelősségi figyelmeztetés"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Bekapcsolva csak a listában szereplő felhasználóazonosítók 
 label = "Csak megadott felhasználóazonosítók engedélyezése"
 
 [admin.settings.telegram.enabled]
-description = "Lehetővé teszi a felhasználóknak a Stirling PDF használatát a beállított Telegram botján keresztül."
+description = "Lehetővé teszi a felhasználóknak a TreelifePDF használatát a beállított Telegram botján keresztül."
 label = "Telegram bot engedélyezése"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "Ez a <strong>Beállítások panel</strong>. Az adminisztrát
 systemCustomization = "Számos módon testre szabhatja a felületet: a <strong>Rendszerbeállítások</strong> lehetővé teszik az alkalmazás nevének és nyelveinek módosítását, a <strong>Funkciók</strong> a kiszolgáló tanúsítványainak kezelését, a <strong>Végpontok</strong> pedig az egyes eszközök engedélyezését vagy letiltását a felhasználói számára."
 teamsAndUsers = "Itt kezelheti a <strong>csapatokat</strong> és az egyes felhasználókat. Meghívhat új felhasználókat e-mailben, megosztható hivatkozásokkal, vagy saját maga hozhat létre egyéni fiókokat számukra."
 welcome = "Üdvözöljük az <strong>Admin túrában</strong>! Fedezzük fel a rendszeradminisztrátorok számára elérhető, hatékony vállalati funkciókat és beállításokat."
-wrapUp = "Ez volt az admin túra! Megismerte azokat a vállalati funkciókat, amelyek a Stirling PDF-et hatékony, testre szabható megoldássá teszik szervezetek számára. Ezt a túrát bármikor elérheti a <strong>Súgó</strong> menüből."
+wrapUp = "Ez volt az admin túra! Megismerte azokat a vállalati funkciókat, amelyek a TreelifePDF-et hatékony, testre szabható megoldássá teszik szervezetek számára. Ezt a túrát bármikor elérheti a <strong>Súgó</strong> menüből."
 
 [adminUserSettings]
 admin = "Rendszergazda"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "További információ"
-paragraph1 = "A Stirling PDF opcionális analitikai adatgyűjtést kínál a termék fejlesztésének támogatásához. Nem gyűjtünk személyes információkat vagy fájltartalmakat."
-paragraph2 = "Kérjük, fontolja meg az analitika engedélyezését, hogy segítse a Stirling-PDF növekedését és jobban megérthessük felhasználóink igényeit."
-title = "Szeretne hozzájárulni a Stirling PDF fejlesztéséhez?"
+paragraph1 = "A TreelifePDF opcionális analitikai adatgyűjtést kínál a termék fejlesztésének támogatásához. Nem gyűjtünk személyes információkat vagy fájltartalmakat."
+paragraph2 = "Kérjük, fontolja meg az analitika engedélyezését, hogy segítse a TreelifePDF növekedését és jobban megérthessük felhasználóink igényeit."
+title = "Szeretne hozzájárulni a TreelifePDF fejlesztéséhez?"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "Támogatott formátumok: PEM, PKCS12, JKS és kiszolgálói tanúsít
 bullet2 = "Az aláírás megjelenítése vagy elrejtése a PDF-en"
 bullet3 = "Ok, hely és aláíró neve hozzáadása"
 bullet4 = "Kiválaszthatja, melyik oldalra kerüljön a látható aláírás"
-bullet5 = "Kiszolgálói tanúsítvány használata az egyszerű 'Aláírás Stirling PDF-fel' opcióhoz"
+bullet5 = "Kiszolgálói tanúsítvány használata az egyszerű 'Aláírás TreelifePDF-fel' opcióhoz"
 text = "PDF aláírásához digitális tanúsítványra van szükség (például PEM, PKCS12 vagy JKS). Az aláírást megjelenítheti a dokumentumon, vagy tarthatja láthatatlanul, csak biztonsági céllal."
 title = "Aláírás hozzáadása"
 
@@ -3011,14 +3011,14 @@ upgradeButton = "Fiók frissítése"
 
 [config.apiKeys]
 copyKeyAriaLabel = "API-kulcs másolása"
-description = "Az API-kulcsa a Stirling PDF eszközkészletének eléréséhez. Másolja a projektjébe, vagy frissítse, hogy újat generáljon."
-docsDescription = "További információ a Stirling PDF integrálásáról:"
+description = "Az API-kulcsa a TreelifePDF eszközkészletének eléréséhez. Másolja a projektjébe, vagy frissítse, hogy újat generáljon."
+docsDescription = "További információ a TreelifePDF integrálásáról:"
 docsLink = "API-dokumentáció"
 docsTitle = "API-dokumentáció"
 generateError = "Nem sikerült API-kulcsot létrehozni."
 goToAccount = "Ugrás a fiókhoz"
 guestInfo = "A vendégek nem kapnak API-kulcsot. Hozzon létre egy fiókot, hogy API-kulcsot kapjon az alkalmazásaihoz."
-intro = "API-kulcsát használhatja a Stirling PDF feldolgozási képességeinek programozott eléréséhez."
+intro = "API-kulcsát használhatja a TreelifePDF feldolgozási képességeinek programozott eléréséhez."
 label = "API-kulcs"
 publicKeyAriaLabel = "Nyilvános API-kulcs"
 refreshAriaLabel = "API-kulcs frissítése"
@@ -3042,10 +3042,10 @@ title = "API-kulcsok frissítése"
 warning = "⚠️ Figyelmeztetés: Ez a művelet új API-kulcsokat hoz létre, és a korábbi kulcsokat érvényteleníti."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Preferenciák kezelése"
 title = "Hogy használjuk a sütiket"
 
 [cookieBanner.popUp.description]
-1 = "Sütiket és egyéb technológiákat használunk, hogy a Stirling PDF jobban működjön az Ön számára, segítve minket abban, hogy javítsuk eszközeinket és olyan funkciókat fejlesszünk, amelyeket szeretni fog"
+1 = "Sütiket és egyéb technológiákat használunk, hogy a TreelifePDF jobban működjön az Ön számára, segítve minket abban, hogy javítsuk eszközeinket és olyan funkciókat fejlesszünk, amelyeket szeretni fog"
 2 = "Ha inkább nem szeretné, a 'Nem, köszönöm' gombra kattintva csak azok az alapvető sütik lesznek engedélyezve, amelyek a zavartalan működéshez szükségesek."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Süti használat"
 title = "Beleegyezési preferenciák központja"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Ezek a sütik segítenek megérteni, hogyan használják eszközeinket, így a közösségünk által leginkább értékelt funkciókra összpontosíthatunk. Nyugodt lehet-a Stirling PDF nem képes és soha nem is fog nyomon követni az Ön által használt dokumentumok tartalmát."
+description = "Ezek a sütik segítenek megérteni, hogyan használják eszközeinket, így a közösségünk által leginkább értékelt funkciókra összpontosíthatunk. Nyugodt lehet-a TreelifePDF nem képes és soha nem is fog nyomon követni az Ön által használt dokumentumok tartalmát."
 title = "Adatelemzések"
 
 [cookieBanner.preferencesModal.description]
-1 = "A Stirling PDF sütiket és hasonló technológiákat használ az Ön élményének javítása, valamint eszközeink használatának megértése érdekében. Ez segít nekünk abban, hogy javítsuk a teljesítményt, fejlesszük az Ön számára fontos funkciókat, és folyamatos támogatást nyújtsunk felhasználóinknak."
-2 = "A Stirling PDF nem képes-és soha nem is fog-nyomon követni vagy hozzáférni az Ön által használt dokumentumok tartalmához."
+1 = "A TreelifePDF sütiket és hasonló technológiákat használ az Ön élményének javítása, valamint eszközeink használatának megértése érdekében. Ez segít nekünk abban, hogy javítsuk a teljesítményt, fejlesszük az Ön számára fontos funkciókat, és folyamatos támogatást nyújtsunk felhasználóinknak."
+2 = "A TreelifePDF nem képes-és soha nem is fog-nyomon követni vagy hozzáférni az Ön által használt dokumentumok tartalmához."
 3 = "Az Ön bizalma és adatainak védelme a tevékenységünk középpontjában áll."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "Nem sikerült beállítani az alapértelmezett PDF-kezelőt"
 title = "Hiba"
 
 [defaultApp.prompt]
-message = "Állítsa a Stirling PDF-et a PDF-fájlok megnyitásának alapértelmezett alkalmazásává."
+message = "Állítsa a TreelifePDF-et a PDF-fájlok megnyitásának alapértelmezett alkalmazásává."
 
 [defaultApp.settingsOpened]
-message = "Válassza a rendszerbeállításokban a Stirling PDF-et"
+message = "Válassza a rendszerbeállításokban a TreelifePDF-et"
 title = "Beállítások megnyitva"
 
 [defaultApp.success]
-message = "A Stirling PDF mostantól az alapértelmezett PDF-szerkesztő"
+message = "A TreelifePDF mostantól az alapértelmezett PDF-szerkesztő"
 title = "Alapértelmezett alkalmazás beállítva"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "A frissítés letöltése vagy telepítése nem sikerült
 
 [desktopUpdate.blocked]
 docsLink = "Telepítési dokumentáció megtekintése"
-message = "A Stirling-PDF-nek nincs jogosultsága saját magát frissíteni ezen a gépen."
+message = "A TreelifePDF-nek nincs jogosultsága saját magát frissíteni ezen a gépen."
 title = "Rendszergazdai jogosultság szükséges"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Láthatatlan (csak metaadat)"
 location = "Hely:"
 logo = "Logó:"
 logoHidden = "Nincs logó"
-logoShown = "Stirling PDF logó megjelenítve"
+logoShown = "TreelifePDF logó megjelenítve"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Résztvevők"
@@ -4170,7 +4170,7 @@ title = "Szekvenciális aláírás"
 dismiss = "Banner elrejtése"
 message = "Hozzon létre ingyenes fiókot, hogy menthesse munkáját, több funkcióhoz férjen hozzá és támogassa a projektet."
 signUp = "Ingyenes regisztráció"
-title = "A Stirling PDF-et vendégként használja!"
+title = "A TreelifePDF-et vendégként használja!"
 
 [home.addAttachments]
 desc = "Beágyazott fájlok (mellékletek) hozzáadása vagy eltávolítása egy PDF-hez/-ből"
@@ -4329,7 +4329,7 @@ tags = "összevon,összekapcsol,egyesít"
 title = "Egyesítés"
 
 [home.mobile]
-brandAlt = "Stirling PDF logó"
+brandAlt = "TreelifePDF logó"
 openFiles = "Fájlok megnyitása"
 swipeHint = "Húzza balra vagy jobbra a nézetek váltásához"
 tools = "Eszközök"
@@ -4368,7 +4368,7 @@ tags = "rendez,átrendez,újrarendez"
 title = "Rendszerezés"
 
 [home.pdfTextEditor]
-desc = "Nézze át és szerkessze a Stirling PDF JSON exportokat csoportosított szövegszerkesztéssel és PDF-újragenerálással"
+desc = "Nézze át és szerkessze a TreelifePDF JSON exportokat csoportosított szövegszerkesztéssel és PDF-újragenerálással"
 tags = "edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "PDF szövegszerkesztő"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "A jelszó megadása kötelező"
 signIn = "Bejelentkezés"
 validating = "Meghívó ellenőrzése..."
 validationError = "Nem sikerült ellenőrizni a meghívó linket"
-welcome = "Üdvözli a Stirling PDF"
+welcome = "Üdvözli a TreelifePDF"
 welcomeSubtitle = "Fejezze be a fiók beállítását a kezdéshez"
 welcomeTitle = "Meghívták!"
 
 [landing]
 addFiles = "Fájlok hozzáadása"
 heroSubtitle = "Húzza ide vagy adjon hozzá egy meglévő PDF-et a kezdéshez."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Feltöltés mobilról"
 openFromComputer = "Megnyitás a gépről"
 uploadFromComputer = "Feltöltés a számítógépről"
@@ -4635,7 +4635,7 @@ subtitle = "Több mint egy tucat eszközzel a PDF-ek kitakarásához, aláírás
 title = "PDF-ek szerkesztése a kívánt információk megjelenítéséhez/védelméhez"
 
 [login.slides.overview]
-alt = "Stirling PDF áttekintés"
+alt = "TreelifePDF áttekintés"
 subtitle = "Adatvédelem-központú felhőcsomag PDF-ekhez, amellyel konvertálhat, aláírhat, kitakarhat és kezelhet dokumentumokat, több mint 50 további hatékony eszközzel."
 title = "Az összes PDF-megoldás egy helyen."
 
@@ -4753,7 +4753,7 @@ message = "A hitelesítés nem volt sikeres. Bezárhatja ezt az ablakot, és meg
 title = "Sikertelen hitelesítés"
 
 [oauth.success]
-message = "Bezárhatja ezt az ablakot, és visszatérhet a Stirling PDF-hez."
+message = "Bezárhatja ezt az ablakot, és visszatérhet a TreelifePDF-hez."
 title = "Sikeres hitelesítés"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Csomagok megtekintése →"
 upgrade = "Frissítés most →"
 
 [onboarding.tourOverview]
-body = "A Stirling PDF V2 tucatnyi eszközzel és megújult elrendezéssel érkezik. Tegyen egy gyors túrát, hogy lássa, mi változott és hol találja a szükséges funkciókat."
+body = "A TreelifePDF V2 tucatnyi eszközzel és megújult elrendezéssel érkezik. Tegyen egy gyors túrát, hogy lássa, mi változott és hol találja a szükséges funkciókat."
 title = "Bemutató áttekintése"
 
 [onboarding.welcomeSlide]
-body = "A Stirling PDF mostantól minden méretű csapat számára készen áll. Ez a frissítés új elrendezést, erőteljes új adminisztrátori képességeket és a leggyakrabban kért funkciónkat – a <strong>Szöveg szerkesztése</strong>-t tartalmazza."
+body = "A TreelifePDF mostantól minden méretű csapat számára készen áll. Ez a frissítés új elrendezést, erőteljes új adminisztrátori képességeket és a leggyakrabban kért funkciónkat – a <strong>Szöveg szerkesztése</strong>-t tartalmazza."
 title = "Üdvözöljük a Stirlingben"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "Legfeljebb 5 felhasználó"
 usageTrackingPrometheus = "Használatkövetés és Prometheus"
 
 [plan.licenseWarning]
-body = "{{total}} felhasználója van, de az ingyenes szint szerverenként csak {{limit}}-et támogat. Frissítsen, hogy a Stirling PDF zavartalanul működjön."
+body = "{{total}} felhasználója van, de az ingyenes szint szerverenként csak {{limit}}-et támogat. Frissítsen, hogy a TreelifePDF zavartalanul működjön."
 cta = "Csomagok megtekintése"
 overLimit = "több mint {{limit}}"
 title = "Elérte az önhostolt ingyenes korlátot"
@@ -6704,8 +6704,8 @@ hideTools = "Nem elérhető eszközök elrejtése ▴"
 messageNoFallback = "Az eszközök csak akkor lesznek elérhetők, ha a szervere újra online."
 messageWithFallback = "Néhány eszközhöz szerverkapcsolat szükséges."
 showTools = "Nem elérhető eszközök megtekintése ▾"
-title = "A Stirling-PDF szervere nem érhető el"
-toolNotAvailableLocally = "A Stirling-PDF szervere offline, és a(z) \"{{endpoint}}\" nem érhető el a helyi backenden."
+title = "A TreelifePDF szervere nem érhető el"
+toolNotAvailableLocally = "A TreelifePDF szervere offline, és a(z) \"{{endpoint}}\" nem érhető el a helyi backenden."
 
 [session]
 expired = "A munkamenet lejárt. Kérjük, frissítse az oldalt és próbálja újra."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "ZIP-ből kibontandó fájlok maximális száma"
 autoUnzipFileLimitTooltip = "Csak akkor bontsa ki, ha a ZIP legfeljebb ennyi fájlt tartalmaz. Állítsa magasabbra nagyobb ZIP-ek kibontásához."
 autoUnzipTooltip = "Az API műveletek által visszaadott ZIP fájlok automatikus kibontása. Tiltsa le, ha a ZIP fájlokat érintetlenül akarja hagyni. Ez nem érinti az automatizálási munkafolyamatokat."
 defaultPdfEditor = "Alapértelmezett PDF-szerkesztő"
-defaultPdfEditorActive = "A Stirling PDF az alapértelmezett PDF-szerkesztő"
+defaultPdfEditorActive = "A TreelifePDF az alapértelmezett PDF-szerkesztő"
 defaultPdfEditorChecking = "Ellenőrzés..."
 defaultPdfEditorInactive = "Más alkalmazás van alapértelmezettként beállítva"
 defaultPdfEditorSet = "Már alapértelmezett"
@@ -6841,7 +6841,7 @@ updateBehavior = "Frissítési viselkedés"
 updateBehaviorDescription = "Válassza ki, hogy telepítés előtt rákérdezzen, automatikusan telepítsen, vagy teljesen kihagyja a frissítésellenőrzést."
 updateBehaviorError = "Nem sikerült módosítani a frissítési viselkedést"
 updateBehaviorErrorLocked = "Ezt a beállítást az adminisztrátor zárolta."
-updateBehaviorLockedDescription = "Az adminisztrátor beállította, hogyan kezeli a Stirling-PDF a frissítéseket ezen a gépen. Változtatáshoz lépjen kapcsolatba vele."
+updateBehaviorLockedDescription = "Az adminisztrátor beállította, hogyan kezeli a TreelifePDF a frissítéseket ezen a gépen. Változtatáshoz lépjen kapcsolatba vele."
 updateBehaviorSaved = "Frissítési viselkedés elmentve."
 versionMismatch = "Warning: A mismatch has been detected between the client version and the AppConfig version. Using different versions can lead to compatibility issues, errors, and security risks. Please ensure that server and client are using the same version."
 viewDetails = "Részletek megtekintése"
@@ -7074,7 +7074,7 @@ step3 = "Indítsa újra a szervert"
 title = "A bejelentkezés nincs engedélyezve"
 
 [setup.server.url]
-description = "Adja meg az önhostolt Stirling PDF szerver teljes URL-jét"
+description = "Adja meg az önhostolt TreelifePDF szerver teljes URL-jét"
 label = "Szerver URL"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Kérjük, töltsön ki minden mezőt"
 signUp = "Regisztráció"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Csatlakozzon a Stirling PDF-hez a kezdéshez"
+subtitle = "Csatlakozzon a TreelifePDF-hez a kezdéshez"
 title = "Fiók létrehozása"
 unexpectedError = "Váratlan hiba: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "Letöltés"
 downloaded = "Letöltve"
 downloadFailed = "A fájl nem tölthető le."
 downloadsCount = "Letöltések: {{count}}"
-emailWarningBody = "Ez e-mail-címnek tűnik. Ha ez a személy nem Stirling PDF felhasználó, nem fogja tudni elérni a fájlt."
+emailWarningBody = "Ez e-mail-címnek tűnik. Ha ez a személy nem TreelifePDF felhasználó, nem fogja tudni elérni a fájlt."
 emailWarningConfirm = "Megosztás mindenképp"
 emailWarningTitle = "E-mail-cím"
 errorTitle = "A megosztás sikertelen"
@@ -7543,7 +7543,7 @@ manageTitle = "Megosztás kezelése"
 noActivity = "Még nincs aktivitás."
 noLinks = "Még nincsenek aktív megosztási hivatkozások."
 noSharedUsers = "Még nincs felhasználó, aki hozzáfér."
-openInApp = "Megnyitás a Stirling PDF-ben"
+openInApp = "Megnyitás a TreelifePDF-ben"
 ownerLabel = "Tulajdonos"
 ownerOnly = "Csak a tulajdonos kezelheti a megosztást."
 ownerUnknown = "Ismeretlen"
@@ -7593,7 +7593,7 @@ updateButton = "Frissítés a szerveren"
 uploadButton = "Feltöltés a szerverre"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,dokumentáció,swagger,végpontok,fejlesztés"
@@ -7718,7 +7718,7 @@ favorites = "Kedvencek"
 heading = "Minden eszköz (teljes képernyős nézet)"
 noResults = "Próbálja módosítani a keresést vagy kapcsolja be a leírásokat, hogy megtalálja, amit keres."
 recommended = "Ajánlott"
-selfHostedOffline = "A saját Stirling-PDF szerverére van szükség (jelenleg offline):"
+selfHostedOffline = "A saját TreelifePDF szerverére van szükség (jelenleg offline):"
 showDetails = "Részletek megjelenítése"
 unavailable = "Szerveradminisztrátor letiltotta:"
 unavailableDependency = "Nem érhető el – szükséges eszköz hiányzik a szerveren:"
@@ -7727,7 +7727,7 @@ unfavorite = "Eltávolítás a kedvencekből"
 [toolPanel.modePrompt]
 chooseFullscreen = "Teljes képernyős mód használata"
 chooseSidebar = "Oldalsáv mód használata"
-description = "Tekintse meg mindkét elrendezést, és döntse el, hogyan szeretné felfedezni a Stirling PDF eszközeit."
+description = "Tekintse meg mindkét elrendezést, és döntse el, hogyan szeretné felfedezni a TreelifePDF eszközeit."
 dismiss = "Talán később"
 fullscreenDescription = "Böngéssze az összes eszközt egy katalógusban, amely lefedi a munkaterületet, amíg választ egyet."
 fullscreenTitle = "Teljes képernyős mód - (örökölt)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Részletes információk betöltése..."
 migrationGuide = "Átállási útmutató"
 migrationGuides = "Átállási útmutatók"
 migrationGuidesDesc = "Frissítés előtt tekintse át a fontos változásokat."
-modalSubtitle = "A Stirling PDF új verziója készen áll a telepítésre."
+modalSubtitle = "A TreelifePDF új verziója készen áll a telepítésre."
 modalTitle = "Frissítés elérhető"
 notes = "Megjegyzések"
 releaseNotes = "Kiadási megjegyzések"
@@ -7821,7 +7821,7 @@ urgent = "Sürgős"
 attentionBody = "Az adminnak be kell jelentkeznie a részletek megtekintéséhez. Kérjük, lépjen vele azonnal kapcsolatba."
 attentionBodyAdmin = "Tekintse át a licenckövetelményeket a megfelelőség fenntartásához."
 attentionTitle = "Ez a szerver adminisztrátori figyelmet igényel"
-message = "Hozza ki a legtöbbet a Stirling PDF-ből korlátlan felhasználóval és fejlett funkciókkal"
+message = "Hozza ki a legtöbbet a TreelifePDF-ből korlátlan felhasználóval és fejlett funkciókkal"
 seeInfo = "Infó megtekintése"
 title = "Váltás Server csomagra"
 upgradeButton = "Frissítés most"
@@ -7932,7 +7932,7 @@ continued = "Folytatás"
 downloads = "Letöltések"
 entryLabel = "Aláírási összegzés"
 filesEvaluated = "{{count}} fájl kiértékelve"
-footer = "Ellenőrizve a Stirling PDF segítségével"
+footer = "Ellenőrizve a TreelifePDF segítségével"
 generatedAt = "Létrehozva"
 noPdf = "A PDF jelentés sikeres ellenőrzés után lesz elérhető."
 page = "Oldal"

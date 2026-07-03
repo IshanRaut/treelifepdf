@@ -913,11 +913,11 @@ description = "İsteğe bağlı özellikleri ve işlevleri yapılandırın."
 title = "Özellikler"
 
 [admin.settings.features.serverCertificate]
-description = "\"Stirling-PDF ile İmzala\" işlevi için sunucu tarafı sertifika oluşturmayı yapılandırın"
+description = "\"TreelifePDF ile İmzala\" işlevi için sunucu tarafı sertifika oluşturmayı yapılandırın"
 label = "Sunucu Sertifikası"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "\"Stirling-PDF ile İmzala\" seçeneği için sunucu tarafı sertifikayı etkinleştir"
+description = "\"TreelifePDF ile İmzala\" seçeneği için sunucu tarafı sertifikayı etkinleştir"
 label = "Sunucu Sertifikasını Etkinleştir"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "Çerez politikası için URL veya dosya adı"
 label = "Çerez Politikası"
 
 [admin.settings.legal.disclaimer]
-message = "Bu hukuki belgeleri özelleştirerek, GDPR ve diğer AB veri koruma gereksinimleri dahil olmak üzere yürürlükteki tüm yasa ve yönetmeliklere uygunluğu sağlamaktan tamamen siz sorumlu olursunuz. Yalnızca şu durumlarda bu ayarları değiştirin: (1) kişisel/özel bir örnek çalıştırıyorsanız, (2) AB yargı yetkisi dışında bulunuyor ve yerel yasal yükümlülüklerinizi anlıyorsanız veya (3) uygun hukuki danışmanlık aldıysanız ve tüm kullanıcı verileri ile yasal uyumluluktan yalnızca sizin sorumlu olduğunuzu kabul ediyorsanız. Stirling-PDF ve geliştiricileri yasal yükümlülüklerinizden sorumlu değildir."
+message = "Bu hukuki belgeleri özelleştirerek, GDPR ve diğer AB veri koruma gereksinimleri dahil olmak üzere yürürlükteki tüm yasa ve yönetmeliklere uygunluğu sağlamaktan tamamen siz sorumlu olursunuz. Yalnızca şu durumlarda bu ayarları değiştirin: (1) kişisel/özel bir örnek çalıştırıyorsanız, (2) AB yargı yetkisi dışında bulunuyor ve yerel yasal yükümlülüklerinizi anlıyorsanız veya (3) uygun hukuki danışmanlık aldıysanız ve tüm kullanıcı verileri ile yasal uyumluluktan yalnızca sizin sorumlu olduğunuzu kabul ediyorsanız. TreelifePDF ve geliştiricileri yasal yükümlülüklerinizden sorumlu değildir."
 title = "Hukuki Sorumluluk Uyarısı"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Etkinleştirildiğinde yalnızca listelenen kullanıcı kimlikler
 label = "Belirli Kullanıcı Kimliklerine İzin Ver"
 
 [admin.settings.telegram.enabled]
-description = "Kullanıcıların yapılandırdığınız Telegram botu üzerinden Stirling PDF ile etkileşim kurmasına izin verin."
+description = "Kullanıcıların yapılandırdığınız Telegram botu üzerinden TreelifePDF ile etkileşim kurmasına izin verin."
 label = "Telegram Botunu Etkinleştir"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "Burası <strong>Ayarlar Paneli</strong>. Yönetici ayarları
 systemCustomization = "UI'yi özelleştirmenin kapsamlı yolları var: <strong>Sistem Ayarları</strong> uygulama adını ve dilleri değiştirmenizi sağlar, <strong>Özellikler</strong> sunucu sertifikası yönetimine olanak tanır ve <strong>Uç Noktalar</strong> kullanıcılarınız için belirli araçları etkinleştirip devre dışı bırakmanızı sağlar."
 teamsAndUsers = "Buradan <strong>Takımları</strong> ve bireysel kullanıcıları yönetin. Yeni kullanıcıları e-posta, paylaşılabilir bağlantılarla davet edebilir veya onlar için özel hesaplar oluşturabilirsiniz."
 welcome = "<strong>Yönetici Turu</strong>'na hoş geldiniz! Sistem yöneticileri için mevcut güçlü kurumsal özellikleri ve ayarları keşfedelim."
-wrapUp = "Yönetici turu bu kadar! Stirling PDF'i kuruluşlar için güçlü, özelleştirilebilir bir çözüm haline getiren kurumsal özellikleri gördünüz. Bu tura istediğiniz zaman <strong>Yardım</strong> menüsünden erişebilirsiniz."
+wrapUp = "Yönetici turu bu kadar! TreelifePDF'i kuruluşlar için güçlü, özelleştirilebilir bir çözüm haline getiren kurumsal özellikleri gördünüz. Bu tura istediğiniz zaman <strong>Yardım</strong> menüsünden erişebilirsiniz."
 
 [adminUserSettings]
 admin = "Yönetici"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "Daha fazla bilgi edinin"
-paragraph1 = "Stirling PDF, ürünü geliştirmemize yardımcı olmak için isteğe bağlı analizleri içerir. Kişisel bilgileri veya dosya içeriklerini asla takip etmiyoruz."
-paragraph2 = "Stirling PDF’in büyümesine destek olmak ve kullanıcılarımızı daha iyi anlayabilmemiz için analizleri etkinleştirmeyi düşünebilirsiniz."
-title = "Stirling PDF’i daha iyi hale getirmek ister misiniz?"
+paragraph1 = "TreelifePDF, ürünü geliştirmemize yardımcı olmak için isteğe bağlı analizleri içerir. Kişisel bilgileri veya dosya içeriklerini asla takip etmiyoruz."
+paragraph2 = "TreelifePDF’in büyümesine destek olmak ve kullanıcılarımızı daha iyi anlayabilmemiz için analizleri etkinleştirmeyi düşünebilirsiniz."
+title = "TreelifePDF’i daha iyi hale getirmek ister misiniz?"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "PEM, PKCS12, JKS ve sunucu sertifika biçimlerini destekler"
 bullet2 = "PDF üzerinde imzayı gösterme veya gizleme seçeneği"
 bullet3 = "Neden, konum ve imzalayan adını ekleyin"
 bullet4 = "Görünür imzaların hangi sayfaya yerleştirileceğini seçin"
-bullet5 = "Basit 'Stirling PDF ile İmzala' seçeneği için sunucu sertifikasını kullanın"
+bullet5 = "Basit 'TreelifePDF ile İmzala' seçeneği için sunucu sertifikasını kullanın"
 text = "Bir PDF'yi imzalamak için dijital bir sertifikaya (PEM, PKCS12 veya JKS gibi) ihtiyacınız vardır. İmzayı belgede görünür yapmayı veya yalnızca güvenlik için görünmez tutmayı seçebilirsiniz."
 title = "İmza Ekleme"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "Hesabı Yükselt"
 [config.apiKeys]
 copyKeyAriaLabel = "API anahtarını kopyala"
 description = "Stirling'in PDF araç paketine erişmek için API anahtarınız. Projenize kopyalayın veya yenisini üretmek için yenileyin."
-docsDescription = "Stirling PDF ile entegrasyon hakkında daha fazla bilgi edinin:"
+docsDescription = "TreelifePDF ile entegrasyon hakkında daha fazla bilgi edinin:"
 docsLink = "API Dokümantasyonu"
 docsTitle = "API Dokümantasyonu"
 generateError = "API anahtarınızı oluşturamadık."
 goToAccount = "Hesaba Git"
 guestInfo = "Misafir kullanıcılar API anahtarı alamaz. Uygulamalarınızda kullanabileceğiniz bir API anahtarı almak için bir hesap oluşturun."
-intro = "API anahtarınızı kullanarak Stirling PDF'in işleme yeteneklerine programatik olarak erişin."
+intro = "API anahtarınızı kullanarak TreelifePDF'in işleme yeteneklerine programatik olarak erişin."
 label = "API Anahtarı"
 publicKeyAriaLabel = "Genel API anahtarı"
 refreshAriaLabel = "API anahtarını yenile"
@@ -3042,10 +3042,10 @@ title = "API Anahtarlarını Yenile"
 warning = "⚠️ Uyarı: Bu işlem yeni API anahtarları oluşturur ve önceki anahtarlarınızı geçersiz kılar."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Tercihleri Yönet"
 title = "Çerezleri Nasıl Kullanıyoruz"
 
 [cookieBanner.popUp.description]
-1 = "Stirling PDF’yi sizin için daha iyi çalıştırmak için çerezler ve diğer teknolojileri kullanıyoruz — araçlarımızı geliştirmemize ve seveceğiniz özellikler oluşturmamıza yardımcı oluyorlar."
+1 = "TreelifePDF’yi sizin için daha iyi çalıştırmak için çerezler ve diğer teknolojileri kullanıyoruz — araçlarımızı geliştirmemize ve seveceğiniz özellikler oluşturmamıza yardımcı oluyorlar."
 2 = "İstemiyorsanız, ‘Hayır Teşekkürler’ butonuna tıklayarak yalnızca temel, gerekli çerezleri etkinleştirebilirsiniz."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Çerez Kullanımı"
 title = "Onay Tercih Merkezi"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Bu çerezler, araçlarımızın nasıl kullanıldığını anlamamıza yardımcı olur, böylece topluluğumuzun en çok değer verdiği özellikleri geliştirmeye odaklanabiliriz. İçiniz rahat olsun — Stirling PDF, belgelerinizin içeriğini asla takip etmez ve etmeyecektir."
+description = "Bu çerezler, araçlarımızın nasıl kullanıldığını anlamamıza yardımcı olur, böylece topluluğumuzun en çok değer verdiği özellikleri geliştirmeye odaklanabiliriz. İçiniz rahat olsun — TreelifePDF, belgelerinizin içeriğini asla takip etmez ve etmeyecektir."
 title = "Analitik"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF, deneyiminizi geliştirmek ve araçlarımızın nasıl kullanıldığını anlamak için çerezler ve benzeri teknolojiler kullanır. Bu, performansı iyileştirmemize, önemsediğiniz özellikleri geliştirmemize ve kullanıcılarımıza sürekli destek sağlamamıza yardımcı olur."
-2 = "Stirling PDF, kullandığınız belgelerin içeriğini asla takip edemez veya erişemez."
+1 = "TreelifePDF, deneyiminizi geliştirmek ve araçlarımızın nasıl kullanıldığını anlamak için çerezler ve benzeri teknolojiler kullanır. Bu, performansı iyileştirmemize, önemsediğiniz özellikleri geliştirmemize ve kullanıcılarımıza sürekli destek sağlamamıza yardımcı olur."
+2 = "TreelifePDF, kullandığınız belgelerin içeriğini asla takip edemez veya erişemez."
 3 = "Gizliliğiniz ve güveniniz bizim için en önemli şeydir."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "Varsayılan PDF işleyicisi ayarlanamadı"
 title = "Hata"
 
 [defaultApp.prompt]
-message = "PDF dosyalarını açmak için varsayılan uygulamanız Stirling PDF olsun."
+message = "PDF dosyalarını açmak için varsayılan uygulamanız TreelifePDF olsun."
 
 [defaultApp.settingsOpened]
-message = "Lütfen sistem ayarlarınızda Stirling PDF'yi seçin"
+message = "Lütfen sistem ayarlarınızda TreelifePDF'yi seçin"
 title = "Ayarlar Açıldı"
 
 [defaultApp.success]
-message = "Stirling PDF artık varsayılan PDF düzenleyiciniz"
+message = "TreelifePDF artık varsayılan PDF düzenleyiciniz"
 title = "Varsayılan Uygulama Ayarlandı"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "Güncelleme indirilemedi veya yüklenemedi."
 
 [desktopUpdate.blocked]
 docsLink = "Kurulum belgelerini görüntüle"
-message = "Stirling-PDF bu makinede kendini güncelleme iznine sahip değil."
+message = "TreelifePDF bu makinede kendini güncelleme iznine sahip değil."
 title = "Yönetici izinleri gerekli"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Görünmez (yalnızca metaveri)"
 location = "Konum:"
 logo = "Logo:"
 logoHidden = "Logo yok"
-logoShown = "Stirling PDF logosu gösteriliyor"
+logoShown = "TreelifePDF logosu gösteriliyor"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Katılımcılar"
@@ -4170,7 +4170,7 @@ title = "Sıralı İmzalama"
 dismiss = "Afişi kapat"
 message = "Çalışmanızı kaydetmek, daha fazla özelliğe erişmek ve projeyi desteklemek için ücretsiz bir hesap oluşturun."
 signUp = "Ücretsiz Kaydol"
-title = "Misafir olarak Stirling PDF kullanıyorsunuz!"
+title = "Misafir olarak TreelifePDF kullanıyorsunuz!"
 
 [home.addAttachments]
 desc = "PDF'ye gömülü dosyaları (ekleri) ekleyin veya kaldırın"
@@ -4329,7 +4329,7 @@ tags = "birleştir,kat,topla"
 title = "Birleştir"
 
 [home.mobile]
-brandAlt = "Stirling PDF logosu"
+brandAlt = "TreelifePDF logosu"
 openFiles = "Dosyaları aç"
 swipeHint = "Görünümler arasında geçmek için sola veya sağa kaydırın"
 tools = "Araçlar"
@@ -4368,7 +4368,7 @@ tags = "düzenle,yeniden_sırala,yeniden_düzenle"
 title = "Düzenle"
 
 [home.pdfTextEditor]
-desc = "Gruplu metin düzenleme ve PDF yeniden oluşturma ile Stirling PDF JSON dışa aktarımlarını gözden geçirin ve düzenleyin"
+desc = "Gruplu metin düzenleme ve PDF yeniden oluşturma ile TreelifePDF JSON dışa aktarımlarını gözden geçirin ve düzenleyin"
 tags = "edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "PDF Metin Düzenleyici"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "Parola gerekli"
 signIn = "Giriş yap"
 validating = "Davet doğrulanıyor..."
 validationError = "Davet bağlantısı doğrulanamadı"
-welcome = "Stirling PDF'ye hoş geldiniz"
+welcome = "TreelifePDF'ye hoş geldiniz"
 welcomeSubtitle = "Başlamak için hesap kurulumunuzu tamamlayın"
 welcomeTitle = "Davet edildiniz!"
 
 [landing]
 addFiles = "Dosya Ekle"
 heroSubtitle = "Başlamak için bir PDF bırakın veya mevcut bir PDF ekleyin."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Mobil Cihazdan Yükle"
 openFromComputer = "Bilgisayardan aç"
 uploadFromComputer = "Bilgisayardan yükle"
@@ -4635,7 +4635,7 @@ subtitle = "PDF'leri sansürlemek, imzalamak, okumak ve işlemek için bir düzi
 title = "İstediğiniz bilgiyi göstermek/korumak için PDF'leri düzenleyin"
 
 [login.slides.overview]
-alt = "Stirling PDF genel bakış"
+alt = "TreelifePDF genel bakış"
 subtitle = "PDF'ler için gizlilik odaklı bir bulut paketi; belgeleri dönüştürmenize, imzalamanıza, sansürlemenize ve yönetmenize olanak tanır, ayrıca 50+ başka güçlü araçla birlikte gelir."
 title = "PDF ihtiyaçlarınızın tümü için tek adresiniz."
 
@@ -4753,7 +4753,7 @@ message = "Kimlik doğrulama başarılı olmadı. Bu pencereyi kapatıp tekrar d
 title = "Kimlik Doğrulama Başarısız"
 
 [oauth.success]
-message = "Bu pencereyi kapatabilir ve Stirling PDF'ye dönebilirsiniz."
+message = "Bu pencereyi kapatabilir ve TreelifePDF'ye dönebilirsiniz."
 title = "Kimlik Doğrulama Başarılı"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Planlara Bak →"
 upgrade = "Şimdi yükselt →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 onlarca araç ve yenilenmiş bir düzenle gelir. Nelerin değiştiğini ve ihtiyaç duyduğunuz özellikleri nerede bulacağınızı görmek için kısa bir tura çıkın."
+body = "TreelifePDF V2 onlarca araç ve yenilenmiş bir düzenle gelir. Nelerin değiştiğini ve ihtiyaç duyduğunuz özellikleri nerede bulacağınızı görmek için kısa bir tura çıkın."
 title = "Tur Genel Bakış"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF artık her boyuttan ekip için hazır. Bu güncelleme yeni bir düzen, güçlü yeni yönetici yetenekleri ve en çok istenen özelliği içerir - <strong>Metni Düzenle</strong>."
+body = "TreelifePDF artık her boyuttan ekip için hazır. Bu güncelleme yeni bir düzen, güçlü yeni yönetici yetenekleri ve en çok istenen özelliği içerir - <strong>Metni Düzenle</strong>."
 title = "Stirling'e hoş geldiniz"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "En fazla 5 kullanıcı"
 usageTrackingPrometheus = "Kullanım takibi ve Prometheus"
 
 [plan.licenseWarning]
-body = "{{total}} kullanıcınız var ancak ücretsiz katman sunucu başına yalnızca {{limit}} destekler. Stirling PDF'nin sorunsuz çalışması için yükseltin."
+body = "{{total}} kullanıcınız var ancak ücretsiz katman sunucu başına yalnızca {{limit}} destekler. TreelifePDF'nin sorunsuz çalışması için yükseltin."
 cta = "Planlara bak"
 overLimit = "{{limit}} sayısından fazla"
 title = "Ücretsiz öz barındırma sınırına ulaşıldı"
@@ -6704,8 +6704,8 @@ hideTools = "Kullanılamayan araçları gizle ▴"
 messageNoFallback = "Sunucunuz geri gelene kadar araçlar kullanılamaz."
 messageWithFallback = "Bazı araçlar sunucu bağlantısı gerektirir."
 showTools = "Kullanılamayan araçları görüntüle ▾"
-title = "Stirling-PDF sunucunuza ulaşılamıyor"
-toolNotAvailableLocally = "Stirling-PDF sunucunuz çevrimdışı ve \"{{endpoint}}\" yerel arka uçta kullanılamıyor."
+title = "TreelifePDF sunucunuza ulaşılamıyor"
+toolNotAvailableLocally = "TreelifePDF sunucunuz çevrimdışı ve \"{{endpoint}}\" yerel arka uçta kullanılamıyor."
 
 [session]
 expired = "Oturumunuzun süresi doldu. Lütfen sayfayı yenileyip tekrar deneyin."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "ZIP'ten çıkarılacak azami dosya sayısı"
 autoUnzipFileLimitTooltip = "Yalnızca ZIP bu kadar ya da daha az dosya içeriyorsa çıkar. Daha büyük ZIP'leri çıkarmak için daha yüksek ayarlayın."
 autoUnzipTooltip = "API işlemlerinden dönen ZIP dosyalarını otomatik olarak çıkarır. ZIP dosyalarını olduğu gibi tutmak için devre dışı bırakın. Bu, otomasyon iş akışlarını etkilemez."
 defaultPdfEditor = "Varsayılan PDF düzenleyici"
-defaultPdfEditorActive = "Stirling PDF varsayılan PDF düzenleyiciniz"
+defaultPdfEditorActive = "TreelifePDF varsayılan PDF düzenleyiciniz"
 defaultPdfEditorChecking = "Kontrol ediliyor..."
 defaultPdfEditorInactive = "Varsayılan olarak başka bir uygulama ayarlı"
 defaultPdfEditorSet = "Zaten Varsayılan"
@@ -6841,7 +6841,7 @@ updateBehavior = "Güncelleme davranışı"
 updateBehaviorDescription = "Güncellemeleri yüklemeden önce sorulmasını, otomatik yüklenmesini veya güncelleme denetimlerinin tamamen atlanmasını seçin."
 updateBehaviorError = "Güncelleme davranışı değiştirilemedi"
 updateBehaviorErrorLocked = "Bu ayar yöneticiniz tarafından kilitlendi."
-updateBehaviorLockedDescription = "Yöneticiniz bu makinede Stirling-PDF'in güncellemeleri nasıl ele alacağını yapılandırdı. Değiştirmek için onlarla iletişime geçin."
+updateBehaviorLockedDescription = "Yöneticiniz bu makinede TreelifePDF'in güncellemeleri nasıl ele alacağını yapılandırdı. Değiştirmek için onlarla iletişime geçin."
 updateBehaviorSaved = "Güncelleme davranışı kaydedildi."
 versionMismatch = "Warning: A mismatch has been detected between the client version and the AppConfig version. Using different versions can lead to compatibility issues, errors, and security risks. Please ensure that server and client are using the same version."
 viewDetails = "Ayrıntıları Görüntüle"
@@ -7074,7 +7074,7 @@ step3 = "Sunucuyu yeniden başlatın"
 title = "Giriş Etkin Değil"
 
 [setup.server.url]
-description = "Öz barındırılan Stirling PDF sunucunuzun tam URL'sini girin"
+description = "Öz barındırılan TreelifePDF sunucunuzun tam URL'sini girin"
 label = "Sunucu URL'si"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Lütfen tüm alanları doldurun"
 signUp = "Kaydol"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Başlamak için Stirling PDF ile başlayın"
+subtitle = "Başlamak için TreelifePDF ile başlayın"
 title = "Hesap oluşturun"
 unexpectedError = "Beklenmeyen hata: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "İndir"
 downloaded = "İndirildi"
 downloadFailed = "Bu dosya indirilemedi."
 downloadsCount = "İndirme: {{count}}"
-emailWarningBody = "Bu bir e-posta adresine benziyor. Bu kişi henüz bir Stirling PDF kullanıcısı değilse dosyaya erişemez."
+emailWarningBody = "Bu bir e-posta adresine benziyor. Bu kişi henüz bir TreelifePDF kullanıcısı değilse dosyaya erişemez."
 emailWarningConfirm = "Yine de paylaş"
 emailWarningTitle = "E-posta adresi"
 errorTitle = "Paylaşım başarısız"
@@ -7543,7 +7543,7 @@ manageTitle = "Paylaşımı Yönet"
 noActivity = "Henüz etkinlik yok."
 noLinks = "Henüz etkin paylaşım bağlantısı yok."
 noSharedUsers = "Henüz hiçbir kullanıcının erişimi yok."
-openInApp = "Stirling PDF'de Aç"
+openInApp = "TreelifePDF'de Aç"
 ownerLabel = "Sahip"
 ownerOnly = "Paylaşımı yalnızca sahibi yönetebilir."
 ownerUnknown = "Bilinmiyor"
@@ -7593,7 +7593,7 @@ updateButton = "Sunucuda Güncelle"
 uploadButton = "Sunucuya Yükle"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,dokümantasyon,swagger,uç noktalar,geliştirme"
@@ -7718,7 +7718,7 @@ favorites = "Favoriler"
 heading = "Tüm araçlar (tam ekran görünüm)"
 noResults = "Aramanızı ayarlamayı deneyin veya ihtiyacınızı bulmak için açıklamaları aç/kapatın."
 recommended = "Önerilen"
-selfHostedOffline = "Stirling-PDF sunucunuzu gerektirir (şu anda çevrimdışı):"
+selfHostedOffline = "TreelifePDF sunucunuzu gerektirir (şu anda çevrimdışı):"
 showDetails = "Ayrıntıları Göster"
 unavailable = "Sunucu yöneticisi tarafından devre dışı bırakıldı:"
 unavailableDependency = "Kullanılamıyor - sunucuda gerekli araç eksik:"
@@ -7727,7 +7727,7 @@ unfavorite = "Favorilerden kaldır"
 [toolPanel.modePrompt]
 chooseFullscreen = "Tam ekran modunu kullan"
 chooseSidebar = "Kenar çubuğu modunu kullan"
-description = "Her iki düzeni önizleyin ve Stirling PDF araçlarını nasıl keşfetmek istediğinize karar verin."
+description = "Her iki düzeni önizleyin ve TreelifePDF araçlarını nasıl keşfetmek istediğinize karar verin."
 dismiss = "Belki sonra"
 fullscreenDescription = "Birini seçene kadar çalışma alanını kaplayan bir katalogda tüm araçlara göz atın."
 fullscreenTitle = "Tam ekran modu - (eski)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Ayrıntılı bilgiler yükleniyor..."
 migrationGuide = "Geçiş Kılavuzu"
 migrationGuides = "Geçiş Kılavuzları"
 migrationGuidesDesc = "Güncellemeden önce önemli değişiklikleri gözden geçirin."
-modalSubtitle = "Stirling PDF'in yeni bir sürümü yüklenmeye hazır."
+modalSubtitle = "TreelifePDF'in yeni bir sürümü yüklenmeye hazır."
 modalTitle = "Güncelleme Mevcut"
 notes = "Notlar"
 releaseNotes = "Sürüm Notları"
@@ -7821,7 +7821,7 @@ urgent = "Acil"
 attentionBody = "Daha fazla bilgi görmek için yöneticinizin oturum açması gerekiyor. Lütfen hemen iletişime geçin."
 attentionBodyAdmin = "Bu sunucunun uyumlu kalması için lisans gereksinimlerini gözden geçirin."
 attentionTitle = "Bu sunucunun yönetici dikkatine ihtiyacı var"
-message = "Sınırsız kullanıcı ve gelişmiş özelliklerle Stirling PDF'den en iyi şekilde yararlanın"
+message = "Sınırsız kullanıcı ve gelişmiş özelliklerle TreelifePDF'den en iyi şekilde yararlanın"
 seeInfo = "Bilgileri gör"
 title = "Sunucu Planına Yükseltin"
 upgradeButton = "Şimdi Yükselt"
@@ -7932,7 +7932,7 @@ continued = "Devamı"
 downloads = "İndirmeler"
 entryLabel = "İmza Özeti"
 filesEvaluated = "{{count}} dosya değerlendirildi"
-footer = "Stirling PDF ile doğrulandı"
+footer = "TreelifePDF ile doğrulandı"
 generatedAt = "Oluşturuldu"
 noPdf = "PDF raporu başarılı bir doğrulamadan sonra kullanılabilir olacaktır."
 page = "Sayfa"

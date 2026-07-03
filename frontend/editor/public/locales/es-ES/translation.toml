@@ -913,11 +913,11 @@ description = "Configura funciones y funcionalidades opcionales."
 title = "Funciones"
 
 [admin.settings.features.serverCertificate]
-description = "Configurar la generación de certificados del lado del servidor para la funcionalidad \"Firmar con Stirling-PDF\""
+description = "Configurar la generación de certificados del lado del servidor para la funcionalidad \"Firmar con TreelifePDF\""
 label = "Certificado del servidor"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Habilitar el certificado del lado del servidor para la opción \"Firmar con Stirling-PDF\""
+description = "Habilitar el certificado del lado del servidor para la opción \"Firmar con TreelifePDF\""
 label = "Habilitar certificado del servidor"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "URL o nombre de archivo de la política de cookies"
 label = "Política de cookies"
 
 [admin.settings.legal.disclaimer]
-message = "Al personalizar estos documentos legales, asumes la responsabilidad total de garantizar el cumplimiento de todas las leyes y normativas aplicables, incluidas, entre otras, el RGPD y otros requisitos de protección de datos de la UE. Solo modifica estos ajustes si: (1) operas una instancia personal/privada, (2) estás fuera de la jurisdicción de la UE y entiendes tus obligaciones legales locales, o (3) has obtenido el asesoramiento legal adecuado y aceptas la responsabilidad exclusiva de todos los datos de los usuarios y del cumplimiento legal. Stirling-PDF y sus desarrolladores no asumen ninguna responsabilidad por tus obligaciones legales."
+message = "Al personalizar estos documentos legales, asumes la responsabilidad total de garantizar el cumplimiento de todas las leyes y normativas aplicables, incluidas, entre otras, el RGPD y otros requisitos de protección de datos de la UE. Solo modifica estos ajustes si: (1) operas una instancia personal/privada, (2) estás fuera de la jurisdicción de la UE y entiendes tus obligaciones legales locales, o (3) has obtenido el asesoramiento legal adecuado y aceptas la responsabilidad exclusiva de todos los datos de los usuarios y del cumplimiento legal. TreelifePDF y sus desarrolladores no asumen ninguna responsabilidad por tus obligaciones legales."
 title = "Advertencia de responsabilidad legal"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Cuando está habilitado, solo los ID de usuario listados pueden u
 label = "Permitir ID de usuario específicos"
 
 [admin.settings.telegram.enabled]
-description = "Permite a los usuarios interactuar con Stirling PDF a través de tu bot de Telegram configurado."
+description = "Permite a los usuarios interactuar con TreelifePDF a través de tu bot de Telegram configurado."
 label = "Habilitar bot de Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "Este es el <strong>Panel de configuración</strong>. Los aju
 systemCustomization = "Disponemos de amplias formas de personalizar la interfaz: <strong>System Settings</strong> te permite cambiar el nombre e idiomas de la aplicación, <strong>Features</strong> permite gestionar el certificado del servidor y <strong>Endpoints</strong> te permite habilitar o deshabilitar herramientas específicas para tus usuarios."
 teamsAndUsers = "Administra aquí los <strong>Equipos</strong> y usuarios individuales. Puedes invitar nuevos usuarios por correo electrónico, enlaces compartibles o crear tú mismo cuentas personalizadas para ellos."
 welcome = "¡Bienvenido al <strong>recorrido de administrador</strong>! Vamos a explorar las potentes funciones y ajustes empresariales disponibles para los administradores del sistema."
-wrapUp = "¡Ese es el recorrido de administrador! Has visto las funciones empresariales que hacen de Stirling PDF una solución potente y personalizable para organizaciones. Accede a este recorrido en cualquier momento desde el menú de <strong>Ayuda</strong>."
+wrapUp = "¡Ese es el recorrido de administrador! Has visto las funciones empresariales que hacen de TreelifePDF una solución potente y personalizable para organizaciones. Accede a este recorrido en cualquier momento desde el menú de <strong>Ayuda</strong>."
 
 [adminUserSettings]
 admin = "Administrador"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "Más información"
-paragraph1 = "Stirling PDF ha optado por analíticas para ayudarnos a mejorar el producto. No rastreamos ninguna información personal ni contenido de archivos."
-paragraph2 = "Considere habilitar analíticas para ayudar a Stirling-PDF a crecer y permitirnos comprender mejor a nuestros usuarios."
-title = "¿Quieres mejorar Stirling PDF?"
+paragraph1 = "TreelifePDF ha optado por analíticas para ayudarnos a mejorar el producto. No rastreamos ninguna información personal ni contenido de archivos."
+paragraph2 = "Considere habilitar analíticas para ayudar a TreelifePDF a crecer y permitirnos comprender mejor a nuestros usuarios."
+title = "¿Quieres mejorar TreelifePDF?"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "Compatible con formatos PEM, PKCS12, JKS y certificado de servidor"
 bullet2 = "Opción de mostrar u ocultar firma en el PDF"
 bullet3 = "Añadir motivo, ubicación y nombre del firmante"
 bullet4 = "Elegir en qué página colocar firmas visibles"
-bullet5 = "Usar certificado de servidor para la opción simple 'Firmar con Stirling-PDF'"
+bullet5 = "Usar certificado de servidor para la opción simple 'Firmar con TreelifePDF'"
 text = "Para firmar un PDF, necesita un certificado digital (como PEM, PKCS12 o JKS). Puede elegir hacer visible la firma en el documento o mantenerla invisible solo para seguridad."
 title = "Añadir firmas"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "Actualizar Cuenta"
 [config.apiKeys]
 copyKeyAriaLabel = "Copiar clave API"
 description = "Tu clave API para acceder al conjunto de herramientas PDF de Stirling. Cópiala en tu proyecto o actualízala para generar una nueva."
-docsDescription = "Más información sobre cómo integrar con Stirling PDF:"
+docsDescription = "Más información sobre cómo integrar con TreelifePDF:"
 docsLink = "Documentación de la API"
 docsTitle = "Documentación de la API"
 generateError = "No pudimos generar tu clave API."
 goToAccount = "Ir a Cuenta"
 guestInfo = "Los usuarios invitados no reciben claves API. Crea una cuenta para obtener una clave API que puedas usar en tus aplicaciones."
-intro = "Usa tu clave de API para acceder de forma programática a las capacidades de procesamiento de Stirling PDF."
+intro = "Usa tu clave de API para acceder de forma programática a las capacidades de procesamiento de TreelifePDF."
 label = "Clave API"
 publicKeyAriaLabel = "Clave API pública"
 refreshAriaLabel = "Actualizar clave API"
@@ -3042,10 +3042,10 @@ title = "Actualizar Claves API"
 warning = "⚠️ Advertencia: Esta acción generará nuevas claves API y hará que tus claves anteriores sean inválidas."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Gestionar preferencias"
 title = "Cómo usamos las cookies"
 
 [cookieBanner.popUp.description]
-1 = "Usamos cookies y otras tecnologías para optimizar el funcionamiento de Stirling PDF, lo que contribuye a mejorar nuestras herramientas y a seguir desarrollando funciones que serán de su interés."
+1 = "Usamos cookies y otras tecnologías para optimizar el funcionamiento de TreelifePDF, lo que contribuye a mejorar nuestras herramientas y a seguir desarrollando funciones que serán de su interés."
 2 = "Si prefiere no hacerlo, al hacer clic en 'No gracias' se activarán únicamente las cookies esenciales necesarias para que todo funcione correctamente."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Uso de cookies"
 title = "Centro de Preferencias de Consentimiento"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Estas cookies nos ayudan a entender cómo se están utilizando nuestras herramientas, para que podamos centrarnos en desarrollar las funciones que nuestra comunidad valora más. Tenga la seguridad de que Stirling PDF no puede y nunca podrá rastrear el contenido de los documentos con los que trabaja."
+description = "Estas cookies nos ayudan a entender cómo se están utilizando nuestras herramientas, para que podamos centrarnos en desarrollar las funciones que nuestra comunidad valora más. Tenga la seguridad de que TreelifePDF no puede y nunca podrá rastrear el contenido de los documentos con los que trabaja."
 title = "Análisis"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF utiliza cookies y tecnologías similares para mejorar su experiencia y entender cómo se usan nuestras herramientas. Esto nos ayuda a mejorar el rendimiento, desarrollar las funciones que le interesan y proporcionar soporte continuo a nuestros usuarios."
-2 = "Stirling PDF no puede—y nunca podrá—rastrear ni acceder al contenido de los documentos que utiliza."
+1 = "TreelifePDF utiliza cookies y tecnologías similares para mejorar su experiencia y entender cómo se usan nuestras herramientas. Esto nos ayuda a mejorar el rendimiento, desarrollar las funciones que le interesan y proporcionar soporte continuo a nuestros usuarios."
+2 = "TreelifePDF no puede—y nunca podrá—rastrear ni acceder al contenido de los documentos que utiliza."
 3 = "Su privacidad y confianza son el núcleo de lo que hacemos."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "No se pudo establecer el gestor de PDF predeterminado"
 title = "Error"
 
 [defaultApp.prompt]
-message = "Haga que Stirling PDF sea su aplicación predeterminada para abrir archivos PDF."
+message = "Haga que TreelifePDF sea su aplicación predeterminada para abrir archivos PDF."
 
 [defaultApp.settingsOpened]
-message = "Seleccione Stirling PDF en la configuración del sistema"
+message = "Seleccione TreelifePDF en la configuración del sistema"
 title = "Configuración abierta"
 
 [defaultApp.success]
-message = "Stirling PDF es ahora su editor de PDF predeterminado"
+message = "TreelifePDF es ahora su editor de PDF predeterminado"
 title = "Configurada la aplicación predeterminada"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "Error al descargar o instalar la actualización."
 
 [desktopUpdate.blocked]
 docsLink = "Ver documentación de instalación"
-message = "Stirling-PDF no tiene permiso para actualizarse en esta máquina."
+message = "TreelifePDF no tiene permiso para actualizarse en esta máquina."
 title = "Se requieren permisos de administrador"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Invisible (solo metadatos)"
 location = "Ubicación:"
 logo = "Logotipo:"
 logoHidden = "Sin logotipo"
-logoShown = "Se muestra el logotipo de Stirling PDF"
+logoShown = "Se muestra el logotipo de TreelifePDF"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Participantes"
@@ -4170,7 +4170,7 @@ title = "Firma secuencial"
 dismiss = "Descartar banner"
 message = "Cree una cuenta gratuita para guardar su trabajo, acceder a más funciones y apoyar el proyecto."
 signUp = "Registrarse Gratis"
-title = "¡Está usando Stirling PDF como invitado!"
+title = "¡Está usando TreelifePDF como invitado!"
 
 [home.addAttachments]
 desc = "Agregar o eliminar archivos incrustados (adjuntos) a/desde un PDF"
@@ -4329,7 +4329,7 @@ tags = "combinar,unir,juntar"
 title = "Unir"
 
 [home.mobile]
-brandAlt = "Logotipo de Stirling PDF"
+brandAlt = "Logotipo de TreelifePDF"
 openFiles = "Abrir archivos"
 swipeHint = "Desliza a izquierda o derecha para cambiar de vista"
 tools = "Herramientas"
@@ -4368,7 +4368,7 @@ tags = "organizar,reorganizar,reordenar"
 title = "Organizador"
 
 [home.pdfTextEditor]
-desc = "Revise y edite exportaciones JSON de Stirling PDF con edición de texto agrupada y regeneración de PDF"
+desc = "Revise y edite exportaciones JSON de TreelifePDF con edición de texto agrupada y regeneración de PDF"
 tags = "editar texto,modificar texto,cambiar texto,editar contenido,actualizar texto,reescribir,corregir,modificar,revisar,editor de texto,editor de contenido"
 title = "Editor de texto PDF"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "Se requiere contraseña"
 signIn = "Iniciar sesión"
 validating = "Validando invitación..."
 validationError = "No se pudo validar el enlace de invitación"
-welcome = "Bienvenido a Stirling PDF"
+welcome = "Bienvenido a TreelifePDF"
 welcomeSubtitle = "Completa la configuración de tu cuenta para empezar"
 welcomeTitle = "¡Has sido invitado!"
 
 [landing]
 addFiles = "Agregar Archivos"
 heroSubtitle = "Suelte o añada un PDF existente para empezar."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Subir desde el móvil"
 openFromComputer = "Abrir desde el ordenador"
 uploadFromComputer = "Cargar desde el ordenador"
@@ -4635,7 +4635,7 @@ subtitle = "Con más de una docena de herramientas para ocultar, firmar, leer y 
 title = "Edite PDFs para mostrar/proteger la información que quiera"
 
 [login.slides.overview]
-alt = "Vista general de Stirling PDF"
+alt = "Vista general de TreelifePDF"
 subtitle = "Una suite en la nube centrada en la privacidad para PDF que le permite convertir, firmar, ocultar y gestionar documentos, junto con 50+ herramientas potentes."
 title = "Su solución integral para todas sus necesidades de PDF."
 
@@ -4753,7 +4753,7 @@ message = "La autenticación no se realizó correctamente. Puede cerrar esta ven
 title = "Autenticación fallida"
 
 [oauth.success]
-message = "Puede cerrar esta ventana y volver a Stirling PDF."
+message = "Puede cerrar esta ventana y volver a TreelifePDF."
 title = "Autenticación correcta"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Ver planes →"
 upgrade = "Actualizar ahora →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 incluye decenas de herramientas y un diseño renovado. Haz un recorrido rápido para ver qué cambió y dónde encontrar las funciones que necesitas."
+body = "TreelifePDF V2 incluye decenas de herramientas y un diseño renovado. Haz un recorrido rápido para ver qué cambió y dónde encontrar las funciones que necesitas."
 title = "Resumen del recorrido"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF ya está listo para equipos de todos los tamaños. Esta actualización incluye un nuevo diseño, potentes capacidades de administración y nuestra función más solicitada: <strong>Editar texto</strong>."
+body = "TreelifePDF ya está listo para equipos de todos los tamaños. Esta actualización incluye un nuevo diseño, potentes capacidades de administración y nuestra función más solicitada: <strong>Editar texto</strong>."
 title = "Bienvenido a Stirling"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "Hasta 5 usuarios"
 usageTrackingPrometheus = "Seguimiento de uso y Prometheus"
 
 [plan.licenseWarning]
-body = "Tiene {{total}} usuarios, pero el nivel gratuito solo admite {{limit}} por servidor. Actualice para que Stirling PDF siga funcionando sin problemas."
+body = "Tiene {{total}} usuarios, pero el nivel gratuito solo admite {{limit}} por servidor. Actualice para que TreelifePDF siga funcionando sin problemas."
 cta = "Ver planes"
 overLimit = "más de {{limit}}"
 title = "Alcanzado el límite gratuito en autoalojado"
@@ -6704,8 +6704,8 @@ hideTools = "Ocultar herramientas no disponibles ▴"
 messageNoFallback = "Las herramientas no estarán disponibles hasta que tu servidor vuelva a estar en línea."
 messageWithFallback = "Alguna herramientas requieren conexión con el servidor."
 showTools = "Ver herramientas no disponibles ▾"
-title = "Tu servidor de Stirling-PDF está inaccesible"
-toolNotAvailableLocally = "Tu servidor Stirling-PDF está sin conexión y \"{{endpoint}}\" no está disponible en el backend local."
+title = "Tu servidor de TreelifePDF está inaccesible"
+toolNotAvailableLocally = "Tu servidor TreelifePDF está sin conexión y \"{{endpoint}}\" no está disponible en el backend local."
 
 [session]
 expired = "Su sesión ha caducado. Actualice la página e inténtelo de nuevo."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "Número máximo de archivos a extraer de un ZIP
 autoUnzipFileLimitTooltip = "Solo descomprime si el ZIP contiene esta cantidad de archivos o menos. Establécelo más alto para extraer ZIPs más grandes."
 autoUnzipTooltip = "Extrae automáticamente archivos ZIP devueltos por operaciones de la API. Desactívalo para mantener los ZIP intactos. Esto no afecta a los flujos de trabajo de automatización."
 defaultPdfEditor = "Editor de PDF predeterminado"
-defaultPdfEditorActive = "Stirling PDF es su editor de PDF predeterminado"
+defaultPdfEditorActive = "TreelifePDF es su editor de PDF predeterminado"
 defaultPdfEditorChecking = "Comprobando..."
 defaultPdfEditorInactive = "Otra aplicación está establecida como predeterminada"
 defaultPdfEditorSet = "Ya es predeterminado"
@@ -6841,7 +6841,7 @@ updateBehavior = "Comportamiento de actualización"
 updateBehaviorDescription = "Elige si se debe preguntar antes de instalar actualizaciones, instalarlas automáticamente o saltarse las comprobaciones de actualización por completo."
 updateBehaviorError = "No se pudo cambiar el comportamiento de actualización"
 updateBehaviorErrorLocked = "Este ajuste está bloqueado por tu administrador."
-updateBehaviorLockedDescription = "Tu administrador ha configurado cómo Stirling-PDF gestiona las actualizaciones en esta máquina. Contacta con él para cambiarlo."
+updateBehaviorLockedDescription = "Tu administrador ha configurado cómo TreelifePDF gestiona las actualizaciones en esta máquina. Contacta con él para cambiarlo."
 updateBehaviorSaved = "Comportamiento de actualización guardado."
 versionMismatch = "Advertencia: Se ha detectado una discrepancia entre la versión del cliente y la versión de AppConfig. El uso de diferentes versiones puede provocar problemas de compatibilidad, errores y riesgos de seguridad. Por favor, asegúrese de que el servidor y el cliente utilizan la misma versión."
 viewDetails = "Ver detalles"
@@ -7074,7 +7074,7 @@ step3 = "Reinicie el servidor"
 title = "Inicio de sesión no habilitado"
 
 [setup.server.url]
-description = "Introduzca la URL completa de su servidor autoalojado de Stirling PDF"
+description = "Introduzca la URL completa de su servidor autoalojado de TreelifePDF"
 label = "URL del servidor"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Por favor, complete todos los campos"
 signUp = "Registrarse"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Únase a Stirling PDF para comenzar"
+subtitle = "Únase a TreelifePDF para comenzar"
 title = "Crear una cuenta"
 unexpectedError = "Error inesperado: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "Descargar"
 downloaded = "Descargado"
 downloadFailed = "No se puede descargar este archivo."
 downloadsCount = "Descargas: {{count}}"
-emailWarningBody = "Parece una dirección de correo electrónico. Si esta persona no es ya usuaria de Stirling PDF, no podrá acceder al archivo."
+emailWarningBody = "Parece una dirección de correo electrónico. Si esta persona no es ya usuaria de TreelifePDF, no podrá acceder al archivo."
 emailWarningConfirm = "Compartir de todos modos"
 emailWarningTitle = "Dirección de correo electrónico"
 errorTitle = "Error al compartir"
@@ -7543,7 +7543,7 @@ manageTitle = "Gestionar uso compartido"
 noActivity = "Aún no hay actividad."
 noLinks = "Aún no hay enlaces activos para compartir."
 noSharedUsers = "Aún no hay usuarios con acceso."
-openInApp = "Abrir en Stirling PDF"
+openInApp = "Abrir en TreelifePDF"
 ownerLabel = "Propietario"
 ownerOnly = "Solo el propietario puede gestionar el uso compartido."
 ownerUnknown = "Desconocido"
@@ -7593,7 +7593,7 @@ updateButton = "Actualizar en el servidor"
 uploadButton = "Subir al servidor"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,documentación,swagger,endpoints,desarrollo"
@@ -7718,7 +7718,7 @@ favorites = "Favoritos"
 heading = "Todas las herramientas (vista de pantalla completa)"
 noResults = "Intenta ajustar tu búsqueda o activar/desactivar las descripciones para encontrar lo que necesitas."
 recommended = "Recomendado"
-selfHostedOffline = "Requiere tu servidor Stirling-PDF (actualmente sin conexión):"
+selfHostedOffline = "Requiere tu servidor TreelifePDF (actualmente sin conexión):"
 showDetails = "Mostrar detalles"
 unavailable = "Desactivado por el administrador del servidor:"
 unavailableDependency = "No disponible - falta la herramienta requerida en el servidor:"
@@ -7727,7 +7727,7 @@ unfavorite = "Quitar de favoritos"
 [toolPanel.modePrompt]
 chooseFullscreen = "Usar modo pantalla completa"
 chooseSidebar = "Usar modo barra lateral"
-description = "Previsualiza ambos diseños y decide cómo quieres explorar las herramientas de Stirling PDF."
+description = "Previsualiza ambos diseños y decide cómo quieres explorar las herramientas de TreelifePDF."
 dismiss = "Quizás más tarde"
 fullscreenDescription = "Explora todas las herramientas en un catálogo que cubre el espacio de trabajo hasta que elijas una."
 fullscreenTitle = "Modo pantalla completa - (heredado)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Cargando información detallada..."
 migrationGuide = "Guía de migración"
 migrationGuides = "Guías de migración"
 migrationGuidesDesc = "Revisa los cambios importantes antes de actualizar."
-modalSubtitle = "Hay una nueva versión de Stirling PDF lista para instalar."
+modalSubtitle = "Hay una nueva versión de TreelifePDF lista para instalar."
 modalTitle = "Actualización disponible"
 notes = "Notas"
 releaseNotes = "Notas de la versión"
@@ -7821,7 +7821,7 @@ urgent = "Urgente"
 attentionBody = "Su administrador debe iniciar sesión para ver más información. Contáctelo de inmediato."
 attentionBodyAdmin = "Revise los requisitos de licencia para mantener este servidor conforme."
 attentionTitle = "Este servidor necesita atención del administrador"
-message = "Aproveche al máximo Stirling PDF con usuarios ilimitados y funciones avanzadas"
+message = "Aproveche al máximo TreelifePDF con usuarios ilimitados y funciones avanzadas"
 seeInfo = "Ver información"
 title = "Actualice al plan Server"
 upgradeButton = "Actualizar ahora"
@@ -7932,7 +7932,7 @@ continued = "Continuación"
 downloads = "Descargas"
 entryLabel = "Resumen de firma"
 filesEvaluated = "{{count}} archivos evaluados"
-footer = "Validado mediante Stirling PDF"
+footer = "Validado mediante TreelifePDF"
 generatedAt = "Generado"
 noPdf = "El informe PDF estará disponible tras una validación correcta."
 page = "Página"

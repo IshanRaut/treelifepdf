@@ -14,10 +14,7 @@
   --spdf-compare-inline-added-bg: rgba(52, 199, 89, 0.25);
 
   /* File Manager active file colors */
-  --file-active-bg: rgba(
-    59,
-    130,
-    246,
+  --file-active-bg: rgba(35, 105, 97,
     0.1
   ); /* Transparent blue for active file background */
   --file-active-badge-bg: rgba(
@@ -66,17 +63,17 @@
   --background: 249 250 251;
   --border: 229 231 235;
 
-  /* Colors for Mantine integration */
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbeafe;
-  --color-primary-200: #bfdbfe;
-  --color-primary-300: #93c5fd;
-  --color-primary-400: #60a5fa;
-  --color-primary-500: #3b82f6;
-  --color-primary-600: #2563eb;
-  --color-primary-700: #1d4ed8;
-  --color-primary-800: #1e40af;
-  --color-primary-900: #1e3a8a;
+  /* Colors for Mantine integration - Treelife forest palette (brand #236961) */
+  --color-primary-50: #e6f0ee;
+  --color-primary-100: #c3dcd7;
+  --color-primary-200: #9cc6bf;
+  --color-primary-300: #6faaa1;
+  --color-primary-400: #43877d;
+  --color-primary-500: #236961;
+  --color-primary-600: #1d5a53;
+  --color-primary-700: #153b36;
+  --color-primary-800: #0f2d29;
+  --color-primary-900: #0b211e;
 
   /* Success (green) */
   --color-green-50: #f0fdf4;
@@ -175,7 +172,7 @@
   --bg-toolbar: #ffffff;
   --bg-file-manager: #f5f6f8;
   --bg-file-list: #ffffff;
-  --btn-open-file: #0a8bff;
+  --btn-open-file: #2e8b57;
   --text-primary: #111827;
   --text-secondary: #4b5563;
   --text-muted: #6b7280;
@@ -194,7 +191,7 @@
   --icon-user-color: #ffffff;
   --icon-notifications-bg: #9ca3af;
   --icon-notifications-color: #ffffff;
-  --icon-tools-bg: #1e88e5;
+  --icon-tools-bg: #2e8b57;
   --icon-tools-color: #ffffff;
   --icon-read-bg: #4caf50;
   --icon-read-color: #ffffff;
@@ -203,9 +200,9 @@
   --icon-automate-bg: #a576e3;
   --icon-automate-color: #ffffff;
   --icon-files-bg: #d3e7f7;
-  --icon-files-color: #0a8bff;
+  --icon-files-color: #2e8b57;
   --icon-activity-bg: #d3e7f7;
-  --icon-activity-color: #0a8bff;
+  --icon-activity-color: #2e8b57;
   --icon-config-bg: #9ca3af;
   --icon-config-color: #ffffff;
 
@@ -226,21 +223,21 @@
   /* Tool picker sticky header variables (light mode) */
   --tool-header-bg: #dbefff;
   --tool-header-border: #bee2ff;
-  --tool-header-text: #1e88e5;
+  --tool-header-text: #2e8b57;
   --tool-header-badge-bg: #c0ddff;
   --tool-header-badge-text: #004e99;
 
   /* Subcategory title styling (light mode) */
   --tool-subcategory-text-color: #9ca3af; /* lighter text */
   --tool-subcategory-rule-color: #e5e7eb; /* doubly lighter rule line */
-  --accent-interactive: #4a90e2;
-  --text-instruction: #4a90e2;
+  --accent-interactive: #236961;
+  --text-instruction: #236961;
   --text-brand: var(--color-gray-700);
   --text-brand-accent: #dc2626;
 
   /* PDF text selection colors */
-  --pdf-selection-bg: rgba(59, 130, 246, 0.2);
-  --pdf-selection-ring: rgba(59, 130, 246, 0.18);
+  --pdf-selection-bg: rgba(35, 105, 97, 0.2);
+  --pdf-selection-ring: rgba(35, 105, 97, 0.18);
 
   /* Placeholder text colors */
   --search-text-and-icon-color: #6b7382;
@@ -300,7 +297,7 @@
     0 10px 26px rgba(58, 123, 232, 0.42), 0 4px 12px rgba(0, 0, 0, 0.1);
 
   /* selected file header colors */
-  --header-selected-bg: #1e88e5; /* light mode selected header matches dark */
+  --header-selected-bg: #2e8b57; /* light mode selected header matches dark */
   --header-selected-fg: #ffffff;
   --file-card-bg: #ffffff; /* file card background (light/dark paired) */
   --accordion-item-bg: #e8eaed; /* accordion item background - more distinguishable */
@@ -333,7 +330,7 @@
   --modal-nav-bg: #f5f6f8;
   --modal-nav-section-title: #6b7280;
   --modal-nav-item: #374151;
-  --modal-nav-item-active: #0a8bff;
+  --modal-nav-item-active: #2e8b57;
   --modal-nav-item-active-bg: rgba(10, 139, 255, 0.08);
   --modal-content-bg: #ffffff;
   --modal-header-border: rgba(0, 0, 0, 0.06);
@@ -508,7 +505,7 @@
   --bg-toolbar: #1f2329;
   --bg-file-manager: #1f2329;
   --bg-file-list: #2a2f36;
-  --btn-open-file: #0a8bff;
+  --btn-open-file: #2e8b57;
   --text-primary: #f9fafb;
   --text-secondary: #d1d5db;
   --text-muted: #9ca3af;
@@ -587,7 +584,7 @@
   --landing-button-hover-bg: var(--bg-raised);
 
   /* selected file header colors for dark */
-  --header-selected-bg: #1e88e5;
+  --header-selected-bg: #2e8b57;
   --header-selected-fg: #ffffff;
   /* file card background (dark) */
   --file-card-bg: #1f2329;
@@ -649,7 +646,7 @@
   --modal-nav-bg: #1f2329;
   --modal-nav-section-title: #9ca3af;
   --modal-nav-item: #d0d6dc;
-  --modal-nav-item-active: #0a8bff;
+  --modal-nav-item-active: #2e8b57;
   --modal-nav-item-active-bg: rgba(10, 139, 255, 0.15);
   --modal-content-bg: #2a2f36;
   --modal-header-border: rgba(255, 255, 255, 0.08);
@@ -731,7 +728,7 @@
 
 /* Plan section button colors */
 .plan-button:not(:disabled):not([data-disabled]) {
-  background-color: #0a8bff !important;
+  background-color: #2e8b57 !important;
 }
 
 [data-mantine-color-scheme="dark"]

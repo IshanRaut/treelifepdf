@@ -70,12 +70,12 @@ export default function Login() {
 
   // Set document meta
   useDocumentMeta({
-    title: `${t("login.title", "Sign in")} - Stirling PDF`,
+    title: `${t("login.title", "Sign in")} - TreelifePDF`,
     description: t(
       "app.description",
       "The Free Adobe Acrobat alternative (10M+ Downloads)",
     ),
-    ogTitle: `${t("login.title", "Sign in")} - Stirling PDF`,
+    ogTitle: `${t("login.title", "Sign in")} - TreelifePDF`,
     ogDescription: t(
       "app.description",
       "The Free Adobe Acrobat alternative (10M+ Downloads)",
@@ -268,12 +268,12 @@ export default function Login() {
       <div className="auth-logo-block">
         <img
           src={withBasePath("/modern-logo/LoginLightModeHeader.svg")}
-          alt="Stirling PDF"
+          alt="TreelifePDF"
           className="auth-logo-header auth-logo-header--light"
         />
         <img
           src={withBasePath("/modern-logo/LoginDarkModeHeader.svg")}
-          alt="Stirling PDF"
+          alt="TreelifePDF"
           className="auth-logo-header auth-logo-header--dark"
         />
       </div>

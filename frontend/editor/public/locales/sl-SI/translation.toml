@@ -913,11 +913,11 @@ description = "Konfigurirajte izbirne funkcije in funkcionalnosti."
 title = "Funkcije"
 
 [admin.settings.features.serverCertificate]
-description = "Konfigurirajte generiranje strežniškega potrdila za funkcionalnost \"Sign with Stirling-PDF\""
+description = "Konfigurirajte generiranje strežniškega potrdila za funkcionalnost \"Sign with TreelifePDF\""
 label = "Strežniško potrdilo"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Omogoči strežniško potrdilo za možnost \"Sign with Stirling-PDF\""
+description = "Omogoči strežniško potrdilo za možnost \"Sign with TreelifePDF\""
 label = "Omogoči strežniško potrdilo"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "URL ali ime datoteke do politike piškotkov"
 label = "Politika piškotkov"
 
 [admin.settings.legal.disclaimer]
-message = "Z lastnim prilagajanjem teh pravnih dokumentov prevzemate polno odgovornost za zagotavljanje skladnosti z vsemi veljavnimi zakoni in predpisi, vključno z GDPR in drugimi zahtevami EU glede varstva podatkov. Te nastavitve spreminjajte samo, če: (1) upravljate osebno/zasebno instanco, (2) ste zunaj jurisdikcije EU in razumete svoje lokalne pravne obveznosti ali (3) ste pridobili ustrezno pravno svetovanje in prevzemate izključno odgovornost za vse uporabniške podatke in pravno skladnost. Stirling-PDF in njegovi razvijalci ne prevzemajo odgovornosti za vaše pravne obveznosti."
+message = "Z lastnim prilagajanjem teh pravnih dokumentov prevzemate polno odgovornost za zagotavljanje skladnosti z vsemi veljavnimi zakoni in predpisi, vključno z GDPR in drugimi zahtevami EU glede varstva podatkov. Te nastavitve spreminjajte samo, če: (1) upravljate osebno/zasebno instanco, (2) ste zunaj jurisdikcije EU in razumete svoje lokalne pravne obveznosti ali (3) ste pridobili ustrezno pravno svetovanje in prevzemate izključno odgovornost za vse uporabniške podatke in pravno skladnost. TreelifePDF in njegovi razvijalci ne prevzemajo odgovornosti za vaše pravne obveznosti."
 title = "Opozorilo o pravni odgovornosti"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Ko je omogočeno, lahko bot uporabljajo samo navedeni ID-ji upora
 label = "Dovoli določene ID-je uporabnikov"
 
 [admin.settings.telegram.enabled]
-description = "Dovoli uporabnikom interakcijo s Stirling PDF prek konfiguriranega Telegram bota."
+description = "Dovoli uporabnikom interakcijo s TreelifePDF prek konfiguriranega Telegram bota."
 label = "Omogoči Telegram bota"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "To je <strong>plošča z nastavitvami</strong>. Skrbniške n
 systemCustomization = "Načini za prilagoditev vmesnika so obsežni: <strong>System Settings</strong> omogoča spremembo imena aplikacije in jezikov, <strong>Features</strong> omogoča upravljanje strežniških potrdil, <strong>Endpoints</strong> pa omogoča omogočanje ali onemogočanje posameznih orodij za vaše uporabnike."
 teamsAndUsers = "Tu upravljajte <strong>skupine</strong> in posamezne uporabnike. Nove uporabnike lahko povabite po e-pošti, s povezavami za deljenje ali jim sami ustvarite račune."
 welcome = "Dobrodošli v <strong>skrbniškem vodniku</strong>! Raziščimo napredne poslovne funkcije in nastavitve, ki so na voljo sistemskim skrbnikom."
-wrapUp = "To je bil skrbniški vodnik! Spoznali ste poslovne funkcije, zaradi katerih je Stirling PDF zmogljiva in prilagodljiva rešitev za organizacije. Do tega vodnika lahko kadarkoli dostopate iz menija <strong>Pomoč</strong>."
+wrapUp = "To je bil skrbniški vodnik! Spoznali ste poslovne funkcije, zaradi katerih je TreelifePDF zmogljiva in prilagodljiva rešitev za organizacije. Do tega vodnika lahko kadarkoli dostopate iz menija <strong>Pomoč</strong>."
 
 [adminUserSettings]
 admin = "Skrbnik"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "Izvedite več"
-paragraph1 = "Stirling PDF se je odločil za analitiko, ki nam pomaga izboljšati izdelek. Ne sledimo nobenim osebnim podatkom ali vsebini datotek."
-paragraph2 = "Prosimo, razmislite o omogočanju analitike, ki bo pomagala rasti Stirling-PDF in nam bo omogočila boljše razumevanje naših uporabnikov."
-title = "Ali želite izboljšati Stirling PDF?"
+paragraph1 = "TreelifePDF se je odločil za analitiko, ki nam pomaga izboljšati izdelek. Ne sledimo nobenim osebnim podatkom ali vsebini datotek."
+paragraph2 = "Prosimo, razmislite o omogočanju analitike, ki bo pomagala rasti TreelifePDF in nam bo omogočila boljše razumevanje naših uporabnikov."
+title = "Ali želite izboljšati TreelifePDF?"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "Podpira formate PEM, PKCS12, JKS in strežniško potrdilo"
 bullet2 = "Možnost prikaza ali skritja podpisa na PDF"
 bullet3 = "Dodajte razlog, lokacijo in ime podpisnika"
 bullet4 = "Izberite, na kateri strani postaviti vidne podpise"
-bullet5 = "Uporabite strežniško potrdilo za preprosto možnost »Sign with Stirling-PDF«"
+bullet5 = "Uporabite strežniško potrdilo za preprosto možnost »Sign with TreelifePDF«"
 text = "Za podpis PDF potrebujete digitalno potrdilo (kot PEM, PKCS12 ali JKS). Podpis lahko na dokumentu prikažete ali ga ohranite nevidnega zgolj zaradi varnosti."
 title = "Dodajanje podpisov"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "Nadgradi račun"
 [config.apiKeys]
 copyKeyAriaLabel = "Kopiraj API ključ"
 description = "Vaš API ključ za dostop do Stirlingove zbirke PDF orodij. Kopirajte ga v svoj projekt ali osvežite za ustvarjanje novega."
-docsDescription = "Več o integraciji s Stirling PDF:"
+docsDescription = "Več o integraciji s TreelifePDF:"
 docsLink = "API dokumentacija"
 docsTitle = "API dokumentacija"
 generateError = "API ključa ni bilo mogoče ustvariti."
 goToAccount = "Pojdi na račun"
 guestInfo = "Gosti uporabniki ne prejmejo API ključev. Ustvarite račun, da dobite API ključ, ki ga lahko uporabljate v svojih aplikacijah."
-intro = "S svojim API ključem programatično dostopajte do zmožnosti obdelave Stirling PDF."
+intro = "S svojim API ključem programatično dostopajte do zmožnosti obdelave TreelifePDF."
 label = "API ključ"
 publicKeyAriaLabel = "Javni API ključ"
 refreshAriaLabel = "Osveži API ključ"
@@ -3042,10 +3042,10 @@ title = "Osveži API ključe"
 warning = "⚠️ Opozorilo: To dejanje bo ustvarilo nove API ključe in vaše prejšnje ključe naredilo neveljavne."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Upravljaj nastavitve"
 title = "Kako uporabljamo piškotke"
 
 [cookieBanner.popUp.description]
-1 = "Piškotke in druge tehnologije uporabljamo, da Stirling PDF deluje bolje za vas — to nam pomaga izboljševati naša orodja in graditi funkcije, ki vam bodo všeč."
+1 = "Piškotke in druge tehnologije uporabljamo, da TreelifePDF deluje bolje za vas — to nam pomaga izboljševati naša orodja in graditi funkcije, ki vam bodo všeč."
 2 = "If you’d rather not, clicking 'No Thanks' will only enable the essential cookies needed to keep things running smoothly."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Uporaba piškotkov"
 title = "Center za nastavitve soglasja"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Ti piškotki nam pomagajo razumeti, kako se naša orodja uporabljajo, da se lahko osredotočimo na gradnjo funkcij, ki jih naša skupnost najbolj ceni. Bodite brez skrbi — Stirling PDF ne more in nikoli ne bo sledil vsebini dokumentov, s katerimi delate."
+description = "Ti piškotki nam pomagajo razumeti, kako se naša orodja uporabljajo, da se lahko osredotočimo na gradnjo funkcij, ki jih naša skupnost najbolj ceni. Bodite brez skrbi — TreelifePDF ne more in nikoli ne bo sledil vsebini dokumentov, s katerimi delate."
 title = "Analitika"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF uporablja piškotke in podobne tehnologije za izboljšanje vaše izkušnje in razumevanje uporabe naših orodij. To nam pomaga izboljšati zmogljivost, razvijati funkcije, ki so vam pomembne, in nenehno podpirati naše uporabnike."
-2 = "Stirling PDF ne more — in nikoli ne bo — sledil ali dostopal do vsebine dokumentov, ki jih uporabljate."
+1 = "TreelifePDF uporablja piškotke in podobne tehnologije za izboljšanje vaše izkušnje in razumevanje uporabe naših orodij. To nam pomaga izboljšati zmogljivost, razvijati funkcije, ki so vam pomembne, in nenehno podpirati naše uporabnike."
+2 = "TreelifePDF ne more — in nikoli ne bo — sledil ali dostopal do vsebine dokumentov, ki jih uporabljate."
 3 = "Vaša zasebnost in zaupanje sta v središču našega dela."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "Privzetega upravljalnika PDF ni bilo mogoče nastaviti"
 title = "Napaka"
 
 [defaultApp.prompt]
-message = "Nastavite Stirling PDF kot privzeto aplikacijo za odpiranje datotek PDF."
+message = "Nastavite TreelifePDF kot privzeto aplikacijo za odpiranje datotek PDF."
 
 [defaultApp.settingsOpened]
-message = "V sistemskih nastavitvah izberite Stirling PDF"
+message = "V sistemskih nastavitvah izberite TreelifePDF"
 title = "Nastavitve odprte"
 
 [defaultApp.success]
-message = "Stirling PDF je zdaj vaš privzeti urejevalnik PDF"
+message = "TreelifePDF je zdaj vaš privzeti urejevalnik PDF"
 title = "Privzeta aplikacija nastavljena"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "Posodobitve ni uspelo prenesti ali namestiti."
 
 [desktopUpdate.blocked]
 docsLink = "Ogled dokumentacije za namestitev"
-message = "Stirling-PDF nima dovoljenja, da se na tem računalniku posodobi."
+message = "TreelifePDF nima dovoljenja, da se na tem računalniku posodobi."
 title = "Zahtevana skrbniška dovoljenja"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Nevidno (samo metapodatki)"
 location = "Lokacija:"
 logo = "Logotip:"
 logoHidden = "Brez logotipa"
-logoShown = "Prikazan logotip Stirling PDF"
+logoShown = "Prikazan logotip TreelifePDF"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Udeleženci"
@@ -4170,7 +4170,7 @@ title = "Zaporedno podpisovanje"
 dismiss = "Skrij pasico"
 message = "Ustvarite brezplačen račun, da shranite svoje delo, dostopate do več funkcij in podprete projekt."
 signUp = "Registrirajte se brezplačno"
-title = "Stirling PDF uporabljate kot gost!"
+title = "TreelifePDF uporabljate kot gost!"
 
 [home.addAttachments]
 desc = "Dodajte ali odstranite vdelane datoteke (priloge) v/iz PDF"
@@ -4329,7 +4329,7 @@ tags = "združi,spoji,poenoti"
 title = "Združi"
 
 [home.mobile]
-brandAlt = "Logotip Stirling PDF"
+brandAlt = "Logotip TreelifePDF"
 openFiles = "Odpri datoteke"
 swipeHint = "Podrsnite levo ali desno za preklapljanje pogledov"
 tools = "Orodja"
@@ -4368,7 +4368,7 @@ tags = "organizira,preuredi,razvrsti"
 title = "Organiziraj"
 
 [home.pdfTextEditor]
-desc = "Pregledujte in urejajte Stirling PDF JSON izvoze z urejanjem združenega besedila in ponovnim ustvarjanjem PDF"
+desc = "Pregledujte in urejajte TreelifePDF JSON izvoze z urejanjem združenega besedila in ponovnim ustvarjanjem PDF"
 tags = "edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "Urejevalnik besedila PDF"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "Geslo je obvezno"
 signIn = "Prijava"
 validating = "Preverjanje povabila..."
 validationError = "Validacija povezave za povabilo ni uspela"
-welcome = "Dobrodošli v Stirling PDF"
+welcome = "Dobrodošli v TreelifePDF"
 welcomeSubtitle = "Dokončajte nastavitev računa za začetek"
 welcomeTitle = "Povabljeni ste!"
 
 [landing]
 addFiles = "Dodaj datoteke"
 heroSubtitle = "Spustite sem ali dodajte obstoječi PDF, da začnete."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Naloži iz mobilne naprave"
 openFromComputer = "Odpri iz računalnika"
 uploadFromComputer = "Naloži z računalnika"
@@ -4635,7 +4635,7 @@ subtitle = "Z več kot ducatom orodij za začrnjevanje, podpisovanje, branje in 
 title = "Uredite PDF-je za prikaz ali zaščito želenih informacij"
 
 [login.slides.overview]
-alt = "Pregled Stirling PDF"
+alt = "Pregled TreelifePDF"
 subtitle = "Paket v oblaku, ki postavlja zasebnost na prvo mesto: pretvarjajte, podpisujte, začrnjajte in upravljajte dokumente ter uporabite več kot 50 drugih zmogljivih orodij."
 title = "Vse na enem mestu za vse vaše potrebe s PDF"
 
@@ -4753,7 +4753,7 @@ message = "Overjanje ni bilo uspešno. Okno lahko zaprete in poskusite znova."
 title = "Overjanje ni uspelo"
 
 [oauth.success]
-message = "To okno lahko zaprete in se vrnete v Stirling PDF."
+message = "To okno lahko zaprete in se vrnete v TreelifePDF."
 title = "Overjanje uspešno"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Poglej načrte →"
 upgrade = "Nadgradi zdaj →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 prinaša številna orodja in osveženo postavitev. Opravite kratek ogled, da vidite, kaj se je spremenilo in kje najdete potrebne funkcije."
+body = "TreelifePDF V2 prinaša številna orodja in osveženo postavitev. Opravite kratek ogled, da vidite, kaj se je spremenilo in kje najdete potrebne funkcije."
 title = "Pregled ogleda"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF je zdaj pripravljen za ekipe vseh velikosti. Ta posodobitev vključuje novo postavitev, zmogljive nove skrbniške zmožnosti in našo najbolj zahtevano funkcijo – <strong>Uredi besedilo</strong>."
+body = "TreelifePDF je zdaj pripravljen za ekipe vseh velikosti. Ta posodobitev vključuje novo postavitev, zmogljive nove skrbniške zmožnosti in našo najbolj zahtevano funkcijo – <strong>Uredi besedilo</strong>."
 title = "Dobrodošli v Stirling"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "Do 5 uporabnikov"
 usageTrackingPrometheus = "Sledenje uporabi in Prometheus"
 
 [plan.licenseWarning]
-body = "Imate {{total}} uporabnikov, vendar brezplačni nivo podpira le {{limit}} na strežnik. Nadgradite, da bo Stirling PDF deloval nemoteno."
+body = "Imate {{total}} uporabnikov, vendar brezplačni nivo podpira le {{limit}} na strežnik. Nadgradite, da bo TreelifePDF deloval nemoteno."
 cta = "Poglej načrte"
 overLimit = "več kot {{limit}}"
 title = "Dosežena brezplačna omejitev samogostovanja"
@@ -6704,8 +6704,8 @@ hideTools = "Skrij nedosegljiva orodja ▴"
 messageNoFallback = "Orodja niso na voljo, dokler vaš strežnik ne bo spet na spletu."
 messageWithFallback = "Nekatera orodja zahtevajo povezavo s strežnikom."
 showTools = "Prikaži nedosegljiva orodja ▾"
-title = "Vaš strežnik Stirling-PDF ni dosegljiv"
-toolNotAvailableLocally = "Vaš strežnik Stirling-PDF je brez povezave in \"{{endpoint}}\" ni na voljo v lokalnem zaledju."
+title = "Vaš strežnik TreelifePDF ni dosegljiv"
+toolNotAvailableLocally = "Vaš strežnik TreelifePDF je brez povezave in \"{{endpoint}}\" ni na voljo v lokalnem zaledju."
 
 [session]
 expired = "Vaša seja je potekla. Osvežite stran in poskusite znova."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "Največje število datotek za razpakiranje iz Z
 autoUnzipFileLimitTooltip = "Razpakiraj samo, če ZIP vsebuje toliko ali manj datotek. Nastavite višje za razpakiranje večjih ZIP-ov."
 autoUnzipTooltip = "Samodejno razpakira ZIP datoteke, vrnjene iz operacij API. Onemogočite, da ohranite ZIP datoteke nedotaknjene. To ne vpliva na avtomatizirane poteke."
 defaultPdfEditor = "Privzeti urejevalnik PDF"
-defaultPdfEditorActive = "Stirling PDF je vaš privzeti urejevalnik PDF"
+defaultPdfEditorActive = "TreelifePDF je vaš privzeti urejevalnik PDF"
 defaultPdfEditorChecking = "Preverjanje..."
 defaultPdfEditorInactive = "Druga aplikacija je nastavljena kot privzeta"
 defaultPdfEditorSet = "Že privzeto"
@@ -6841,7 +6841,7 @@ updateBehavior = "Obnašanje posodobitev"
 updateBehaviorDescription = "Izberite, ali naj vas sistem pred namestitvijo posodobitev vpraša, jih samodejno namesti ali povsem preskoči preverjanje posodobitev."
 updateBehaviorError = "Ni bilo mogoče spremeniti obnašanja posodobitev"
 updateBehaviorErrorLocked = "To nastavitev je zaklenil vaš skrbnik."
-updateBehaviorLockedDescription = "Vaš skrbnik je nastavil, kako Stirling-PDF upravlja posodobitve na tem računalniku. Za spremembo ga kontaktirajte."
+updateBehaviorLockedDescription = "Vaš skrbnik je nastavil, kako TreelifePDF upravlja posodobitve na tem računalniku. Za spremembo ga kontaktirajte."
 updateBehaviorSaved = "Obnašanje posodobitev shranjeno."
 versionMismatch = "Warning: A mismatch has been detected between the client version and the AppConfig version. Using different versions can lead to compatibility issues, errors, and security risks. Please ensure that server and client are using the same version."
 viewDetails = "Poglej podrobnosti"
@@ -7074,7 +7074,7 @@ step3 = "Znova zaženite strežnik"
 title = "Prijava ni omogočena"
 
 [setup.server.url]
-description = "Vnesite celoten URL svojega samogostovanega strežnika Stirling PDF"
+description = "Vnesite celoten URL svojega samogostovanega strežnika TreelifePDF"
 label = "URL strežnika"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Izpolnite vsa polja"
 signUp = "Registracija"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Pridružite se Stirling PDF in začnite"
+subtitle = "Pridružite se TreelifePDF in začnite"
 title = "Ustvarite račun"
 unexpectedError = "Nepričakovana napaka: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "Prenesi"
 downloaded = "Preneseno"
 downloadFailed = "Te datoteke ni mogoče prenesti."
 downloadsCount = "Prenosi: {{count}}"
-emailWarningBody = "Videti je kot e-poštni naslov. Če ta oseba ni uporabnik Stirling PDF, ne bo mogla dostopati do datoteke."
+emailWarningBody = "Videti je kot e-poštni naslov. Če ta oseba ni uporabnik TreelifePDF, ne bo mogla dostopati do datoteke."
 emailWarningConfirm = "Vseeno daj v skupno rabo"
 emailWarningTitle = "E-poštni naslov"
 errorTitle = "Skupna raba ni uspela"
@@ -7543,7 +7543,7 @@ manageTitle = "Upravljanje skupne rabe"
 noActivity = "Še ni dejavnosti."
 noLinks = "Ni aktivnih povezav za skupno rabo."
 noSharedUsers = "Noben uporabnik še nima dostopa."
-openInApp = "Odpri v Stirling PDF"
+openInApp = "Odpri v TreelifePDF"
 ownerLabel = "Lastnik"
 ownerOnly = "Le lastnik lahko upravlja skupno rabo."
 ownerUnknown = "Neznano"
@@ -7593,7 +7593,7 @@ updateButton = "Posodobi na strežniku"
 uploadButton = "Naloži na strežnik"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,dokumentacija,swagger,končne-točke,razvoj"
@@ -7718,7 +7718,7 @@ favorites = "Priljubljene"
 heading = "Vsa orodja (celozaslonski pogled)"
 noResults = "Poskusite prilagoditi iskanje ali preklopiti opise, da najdete, kar potrebujete."
 recommended = "Priporočeno"
-selfHostedOffline = "Zahteva vaš strežnik Stirling-PDF (trenutno brez povezave):"
+selfHostedOffline = "Zahteva vaš strežnik TreelifePDF (trenutno brez povezave):"
 showDetails = "Pokaži podrobnosti"
 unavailable = "Onemogočeno s strani skrbnika strežnika:"
 unavailableDependency = "Ni na voljo – na strežniku manjka zahtevano orodje:"
@@ -7727,7 +7727,7 @@ unfavorite = "Odstrani iz priljubljenih"
 [toolPanel.modePrompt]
 chooseFullscreen = "Uporabi celozaslonski način"
 chooseSidebar = "Uporabi način stranske vrstice"
-description = "Predogled obeh postavitev in odločite se, kako želite raziskovati orodja Stirling PDF."
+description = "Predogled obeh postavitev in odločite se, kako želite raziskovati orodja TreelifePDF."
 dismiss = "Morda kasneje"
 fullscreenDescription = "Brskajte po vseh orodjih v katalogu, ki pokrije delovni prostor, dokler ne izberete enega."
 fullscreenTitle = "Celozaslonski način - (zastarelo)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Nalaganje podrobnih informacij..."
 migrationGuide = "Vodič za migracijo"
 migrationGuides = "Vodiči za migracijo"
 migrationGuidesDesc = "Pred posodobitvijo preglejte pomembne spremembe."
-modalSubtitle = "Nova različica Stirling PDF je pripravljena za namestitev."
+modalSubtitle = "Nova različica TreelifePDF je pripravljena za namestitev."
 modalTitle = "Na voljo je posodobitev"
 notes = "Opombe"
 releaseNotes = "Opombe ob izdaji"
@@ -7821,7 +7821,7 @@ urgent = "Nujno"
 attentionBody = "Vaš skrbnik se mora prijaviti za več informacij. Prosimo, kontaktirajte ga takoj."
 attentionBodyAdmin = "Preglejte licenčne zahteve, da bo ta strežnik v skladu."
 attentionTitle = "Ta strežnik potrebuje pozornost skrbnika"
-message = "Izkoristite Stirling PDF z neomejenimi uporabniki in naprednimi funkcijami"
+message = "Izkoristite TreelifePDF z neomejenimi uporabniki in naprednimi funkcijami"
 seeInfo = "Poglej informacije"
 title = "Nadgradite na načrt Server"
 upgradeButton = "Nadgradi zdaj"
@@ -7932,7 +7932,7 @@ continued = "Nadaljevanje"
 downloads = "Prenosi"
 entryLabel = "Povzetek podpisa"
 filesEvaluated = "{{count}} obravnavanih datotek"
-footer = "Preverjeno prek Stirling PDF"
+footer = "Preverjeno prek TreelifePDF"
 generatedAt = "Ustvarjeno"
 noPdf = "Poročilo PDF bo na voljo po uspešnem preverjanju."
 page = "Stran"

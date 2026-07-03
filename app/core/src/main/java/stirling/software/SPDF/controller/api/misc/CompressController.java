@@ -561,8 +561,8 @@ public class CompressController {
         int originalHeight = bufferedImage.getHeight();
 
         // Minimum dimensions to preserve reasonable quality
-        int MIN_WIDTH = 400;
-        int MIN_HEIGHT = 400;
+        int MIN_WIDTH = 32;
+        int MIN_HEIGHT = 32;
 
         log.info("Original dimensions: {}x{}", originalWidth, originalHeight);
 
@@ -584,10 +584,10 @@ public class CompressController {
             // More aggressive for very large images
             adjustedScaleFactor = Math.min(scaleFactor, 0.75);
             log.info("Very large image, using more aggressive scale: {}", adjustedScaleFactor);
-        } else if (originalWidth < 1000 || originalHeight < 1000) {
-            // More conservative for smaller images
+        } else if (originalWidth < 200 || originalHeight < 200) {
+            // More conservative for very small images
             adjustedScaleFactor = Math.max(scaleFactor, 0.9);
-            log.info("Smaller image, using conservative scale: {}", adjustedScaleFactor);
+            log.info("Very small image, using conservative scale: {}", adjustedScaleFactor);
         }
 
         int newWidth = (int) (originalWidth * adjustedScaleFactor);
@@ -596,14 +596,6 @@ public class CompressController {
         // Ensure minimum dimensions
         newWidth = Math.max(newWidth, MIN_WIDTH);
         newHeight = Math.max(newHeight, MIN_HEIGHT);
-
-        // Skip if change is negligible
-        if ((double) newWidth / originalWidth > 0.95
-                && (double) newHeight / originalHeight > 0.95
-                && !convertToGrayscale) {
-            log.info("Change too small, skipping compression");
-            return null;
-        }
 
         log.info(
                 "Resizing to {}x{} ({}% of original)",
@@ -1092,7 +1084,11 @@ public class CompressController {
                 currentFile = originalFile;
             }
             long finalFileSize = Files.size(currentFile);
-            if (finalFileSize >= inputFileSize) {
+            if (finalFileSize >= inputFileSize
+                    && !Boolean.TRUE.equals(convertToGrayscale)
+                    && !Boolean.TRUE.equals(convertToLineArt)
+                    && !Boolean.TRUE.equals(request.getLinearize())
+                    && !Boolean.TRUE.equals(request.getNormalize())) {
                 log.warn(
                         "Optimized file is larger than the original. Using the original file"
                                 + " instead.");

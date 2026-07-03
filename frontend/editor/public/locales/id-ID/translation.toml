@@ -913,11 +913,11 @@ description = "Konfigurasikan fitur dan fungsionalitas opsional."
 title = "Fitur"
 
 [admin.settings.features.serverCertificate]
-description = "Konfigurasikan pembuatan sertifikat sisi server untuk fungsi \"Sign with Stirling-PDF\""
+description = "Konfigurasikan pembuatan sertifikat sisi server untuk fungsi \"Sign with TreelifePDF\""
 label = "Sertifikat Server"
 
 [admin.settings.features.serverCertificate.enabled]
-description = "Aktifkan sertifikat sisi server untuk opsi \"Sign with Stirling-PDF\""
+description = "Aktifkan sertifikat sisi server untuk opsi \"Sign with TreelifePDF\""
 label = "Aktifkan Sertifikat Server"
 
 [admin.settings.features.serverCertificate.organizationName]
@@ -1065,7 +1065,7 @@ description = "URL atau nama file untuk kebijakan cookie"
 label = "Kebijakan Cookie"
 
 [admin.settings.legal.disclaimer]
-message = "Dengan menyesuaikan dokumen legal ini, Anda menanggung tanggung jawab penuh untuk memastikan kepatuhan terhadap semua hukum dan peraturan yang berlaku, termasuk namun tidak terbatas pada GDPR dan persyaratan perlindungan data UE lainnya. Hanya ubah pengaturan ini jika: (1) Anda mengoperasikan instance pribadi/pribadi, (2) Anda berada di luar yurisdiksi UE dan memahami kewajiban hukum lokal Anda, atau (3) Anda telah memperoleh nasihat hukum yang tepat dan menerima tanggung jawab penuh atas semua data pengguna dan kepatuhan hukum. Stirling-PDF dan para pengembangnya tidak menanggung kewajiban atas kewajiban hukum Anda."
+message = "Dengan menyesuaikan dokumen legal ini, Anda menanggung tanggung jawab penuh untuk memastikan kepatuhan terhadap semua hukum dan peraturan yang berlaku, termasuk namun tidak terbatas pada GDPR dan persyaratan perlindungan data UE lainnya. Hanya ubah pengaturan ini jika: (1) Anda mengoperasikan instance pribadi/pribadi, (2) Anda berada di luar yurisdiksi UE dan memahami kewajiban hukum lokal Anda, atau (3) Anda telah memperoleh nasihat hukum yang tepat dan menerima tanggung jawab penuh atas semua data pengguna dan kepatuhan hukum. TreelifePDF dan para pengembangnya tidak menanggung kewajiban atas kewajiban hukum Anda."
 title = "Peringatan Tanggung Jawab Hukum"
 
 [admin.settings.legal.impressum]
@@ -1509,7 +1509,7 @@ description = "Saat diaktifkan, hanya ID pengguna yang terdaftar yang dapat meng
 label = "Izinkan ID Pengguna Tertentu"
 
 [admin.settings.telegram.enabled]
-description = "Izinkan pengguna berinteraksi dengan Stirling PDF melalui bot Telegram yang Anda konfigurasi."
+description = "Izinkan pengguna berinteraksi dengan TreelifePDF melalui bot Telegram yang Anda konfigurasi."
 label = "Aktifkan Bot Telegram"
 
 [admin.settings.telegram.feedback]
@@ -1582,7 +1582,7 @@ settingsOverview = "Ini adalah <strong>Settings Panel</strong>. Pengaturan admin
 systemCustomization = "Kami memiliki banyak cara untuk menyesuaikan UI: <strong>System Settings</strong> memungkinkan Anda mengubah nama aplikasi dan bahasa, <strong>Features</strong> memungkinkan pengelolaan sertifikat server, dan <strong>Endpoints</strong> memungkinkan Anda mengaktifkan atau menonaktifkan alat tertentu untuk pengguna Anda."
 teamsAndUsers = "Kelola <strong>Teams</strong> dan pengguna individu di sini. Anda dapat mengundang pengguna baru melalui email, tautan yang dapat dibagikan, atau membuat akun kustom untuk mereka sendiri."
 welcome = "Selamat datang di <strong>Tur Admin</strong>! Mari jelajahi fitur dan pengaturan enterprise yang kuat yang tersedia untuk administrator sistem."
-wrapUp = "Itulah tur admin! Anda telah melihat fitur enterprise yang menjadikan Stirling PDF solusi yang kuat dan dapat disesuaikan untuk organisasi. Akses tur ini kapan saja dari menu <strong>Bantuan</strong>."
+wrapUp = "Itulah tur admin! Anda telah melihat fitur enterprise yang menjadikan TreelifePDF solusi yang kuat dan dapat disesuaikan untuk organisasi. Akses tur ini kapan saja dari menu <strong>Bantuan</strong>."
 
 [adminUserSettings]
 admin = "Administrator"
@@ -1593,9 +1593,9 @@ stirling_name = "Stirling"
 
 [analytics]
 learnMore = "Pelajari lebih lanjut"
-paragraph1 = "Stirling PDF memiliki analitik yang dapat diaktifkan untuk membantu kami meningkatkan produk. Kami tidak melacak informasi pribadi atau konten berkas."
-paragraph2 = "Silakan pertimbangkan untuk mengaktifkan analitik agar Stirling PDF dapat berkembang dan untuk memungkinkan kami memahami pengguna kami dengan lebih baik."
-title = "Apakah Anda ingin membuat Stirling PDF lebih baik?"
+paragraph1 = "TreelifePDF memiliki analitik yang dapat diaktifkan untuk membantu kami meningkatkan produk. Kami tidak melacak informasi pribadi atau konten berkas."
+paragraph2 = "Silakan pertimbangkan untuk mengaktifkan analitik agar TreelifePDF dapat berkembang dan untuk memungkinkan kami memahami pengguna kami dengan lebih baik."
+title = "Apakah Anda ingin membuat TreelifePDF lebih baik?"
 
 [annotate]
 tags = "annotate,highlight,draw,markup,comment,notes,review,redline,feedback,markup tools,sticky notes,shapes,arrows,text box,freehand"
@@ -2498,7 +2498,7 @@ bullet1 = "Mendukung format sertifikat PEM, PKCS12, JKS, dan server"
 bullet2 = "Opsi untuk menampilkan atau menyembunyikan tanda tangan pada PDF"
 bullet3 = "Tambahkan alasan, lokasi, dan nama penanda tangan"
 bullet4 = "Pilih halaman tempat meletakkan tanda tangan yang terlihat"
-bullet5 = "Gunakan sertifikat server untuk opsi sederhana 'Sign with Stirling-PDF'"
+bullet5 = "Gunakan sertifikat server untuk opsi sederhana 'Sign with TreelifePDF'"
 text = "Untuk menandatangani PDF, Anda memerlukan sertifikat digital (seperti PEM, PKCS12, atau JKS). Anda dapat memilih agar tanda tangan terlihat pada dokumen atau tetap tidak terlihat hanya untuk keamanan."
 title = "Menambahkan Tanda Tangan"
 
@@ -3012,13 +3012,13 @@ upgradeButton = "Tingkatkan Akun"
 [config.apiKeys]
 copyKeyAriaLabel = "Salin kunci API"
 description = "Kunci API Anda untuk mengakses rangkaian alat PDF Stirling. Salin ke proyek Anda atau segarkan untuk membuat yang baru."
-docsDescription = "Pelajari lebih lanjut tentang integrasi dengan Stirling PDF:"
+docsDescription = "Pelajari lebih lanjut tentang integrasi dengan TreelifePDF:"
 docsLink = "Dokumentasi API"
 docsTitle = "Dokumentasi API"
 generateError = "Kami tidak dapat membuat kunci API Anda."
 goToAccount = "Buka Akun"
 guestInfo = "Pengguna tamu tidak menerima kunci API. Buat akun untuk mendapatkan kunci API yang dapat Anda gunakan di aplikasi Anda."
-intro = "Gunakan kunci API Anda untuk mengakses kemampuan pemrosesan Stirling PDF secara terprogram."
+intro = "Gunakan kunci API Anda untuk mengakses kemampuan pemrosesan TreelifePDF secara terprogram."
 label = "Kunci API"
 publicKeyAriaLabel = "Kunci API publik"
 refreshAriaLabel = "Segarkan kunci API"
@@ -3042,10 +3042,10 @@ title = "Segarkan Kunci API"
 warning = "⚠️ Peringatan: Tindakan ini akan menghasilkan kunci API baru dan membuat kunci sebelumnya tidak valid."
 
 [config.mcp]
-description = "Model Context Protocol (MCP) lets AI assistants like Claude use your Stirling PDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
-guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run Stirling PDF tools on your behalf."
+description = "Model Context Protocol (MCP) lets AI assistants like Claude use your TreelifePDF tools directly. Connect a client once and your assistant can convert, edit, secure and process documents on your behalf."
+guestInfo = "Guest users can't connect MCP clients. Create an account to use the MCP server and let your AI assistant run TreelifePDF tools on your behalf."
 navLabel = "MCP Server"
-tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using Stirling PDF directly."
+tip = "Every action your assistant runs is performed as your account and counts towards your usage, just like using TreelifePDF directly."
 title = "MCP Server"
 viewApiKeys = "View API keys"
 
@@ -3171,7 +3171,7 @@ showPreferencesBtn = "Kelola preferensi"
 title = "Bagaimana kami menggunakan Cookie"
 
 [cookieBanner.popUp.description]
-1 = "Kami menggunakan cookie dan teknologi lain untuk membuat Stirling PDF bekerja lebih baik untuk Anda—membantu kami meningkatkan alat dan terus membangun fitur yang Anda sukai."
+1 = "Kami menggunakan cookie dan teknologi lain untuk membuat TreelifePDF bekerja lebih baik untuk Anda—membantu kami meningkatkan alat dan terus membangun fitur yang Anda sukai."
 2 = "If you’d rather not, clicking 'No Thanks' will only enable the essential cookies needed to keep things running smoothly."
 
 [cookieBanner.preferencesModal]
@@ -3184,12 +3184,12 @@ subtitle = "Penggunaan Cookie"
 title = "Pusat Preferensi Persetujuan"
 
 [cookieBanner.preferencesModal.analytics]
-description = "Cookie ini membantu kami memahami bagaimana alat kami digunakan, sehingga kami dapat fokus membangun fitur yang paling dihargai komunitas kami. Tenang—Stirling PDF tidak dan tidak akan pernah melacak konten dokumen yang Anda kerjakan."
+description = "Cookie ini membantu kami memahami bagaimana alat kami digunakan, sehingga kami dapat fokus membangun fitur yang paling dihargai komunitas kami. Tenang—TreelifePDF tidak dan tidak akan pernah melacak konten dokumen yang Anda kerjakan."
 title = "Analitik"
 
 [cookieBanner.preferencesModal.description]
-1 = "Stirling PDF menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda dan memahami bagaimana alat kami digunakan. Ini membantu kami meningkatkan kinerja, mengembangkan fitur yang Anda pedulikan, dan memberikan dukungan berkelanjutan kepada pengguna kami."
-2 = "Stirling PDF tidak dapat—dan tidak akan pernah—melacak atau mengakses konten dokumen yang Anda gunakan."
+1 = "TreelifePDF menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda dan memahami bagaimana alat kami digunakan. Ini membantu kami meningkatkan kinerja, mengembangkan fitur yang Anda pedulikan, dan memberikan dukungan berkelanjutan kepada pengguna kami."
+2 = "TreelifePDF tidak dapat—dan tidak akan pernah—melacak atau mengakses konten dokumen yang Anda gunakan."
 3 = "Privasi dan kepercayaan Anda adalah inti dari apa yang kami lakukan."
 
 [cookieBanner.preferencesModal.necessary]
@@ -3285,14 +3285,14 @@ message = "Gagal menyetel penangan PDF default"
 title = "Error"
 
 [defaultApp.prompt]
-message = "Jadikan Stirling PDF aplikasi default untuk membuka file PDF."
+message = "Jadikan TreelifePDF aplikasi default untuk membuka file PDF."
 
 [defaultApp.settingsOpened]
-message = "Silakan pilih Stirling PDF di pengaturan sistem Anda"
+message = "Silakan pilih TreelifePDF di pengaturan sistem Anda"
 title = "Pengaturan Dibuka"
 
 [defaultApp.success]
-message = "Stirling PDF sekarang adalah editor PDF default Anda"
+message = "TreelifePDF sekarang adalah editor PDF default Anda"
 title = "Aplikasi Default Disetel"
 
 [desktopUpdate]
@@ -3308,7 +3308,7 @@ updateFailedMessage = "Gagal mengunduh atau memasang pembaruan."
 
 [desktopUpdate.blocked]
 docsLink = "Lihat dokumentasi instalasi"
-message = "Stirling-PDF tidak memiliki izin untuk memperbarui dirinya di mesin ini."
+message = "TreelifePDF tidak memiliki izin untuk memperbarui dirinya di mesin ini."
 title = "Izin administrator diperlukan"
 
 [devAirgapped]
@@ -4116,7 +4116,7 @@ invisible = "Tidak terlihat (hanya metadata)"
 location = "Lokasi:"
 logo = "Logo:"
 logoHidden = "Tanpa logo"
-logoShown = "Logo Stirling PDF ditampilkan"
+logoShown = "Logo TreelifePDF ditampilkan"
 participantCount_one = "{{count}} participant will sign in order"
 participantCount_other = "{{count}} participants will sign in order"
 participants = "Peserta"
@@ -4170,7 +4170,7 @@ title = "Penandatanganan Berurutan"
 dismiss = "Tutup banner"
 message = "Buat akun gratis untuk menyimpan pekerjaan Anda, mengakses lebih banyak fitur, dan mendukung proyek ini."
 signUp = "Daftar Gratis"
-title = "Anda menggunakan Stirling PDF sebagai tamu!"
+title = "Anda menggunakan TreelifePDF sebagai tamu!"
 
 [home.addAttachments]
 desc = "Tambah atau hapus file tersemat (lampiran) ke/dari PDF"
@@ -4329,7 +4329,7 @@ tags = "gabung,satukan,seragamkan"
 title = "Menggabungkan"
 
 [home.mobile]
-brandAlt = "logo Stirling PDF"
+brandAlt = "logo TreelifePDF"
 openFiles = "Buka file"
 swipeHint = "Geser ke kiri atau kanan untuk mengganti tampilan"
 tools = "Alat"
@@ -4368,7 +4368,7 @@ tags = "atur,susun-ulang,ubah-urutan"
 title = "Mengatur"
 
 [home.pdfTextEditor]
-desc = "Tinjau dan edit ekspor Stirling PDF JSON dengan pengeditan teks terkelompok dan pembuatan ulang PDF"
+desc = "Tinjau dan edit ekspor TreelifePDF JSON dengan pengeditan teks terkelompok dan pembuatan ulang PDF"
 tags = "edit text,modify text,change text,edit content,update text,rewrite,correct,amend,redline,revise,text editor,content editor"
 title = "Editor Teks PDF"
 
@@ -4550,14 +4550,14 @@ passwordRequired = "Kata sandi wajib diisi"
 signIn = "Masuk"
 validating = "Memvalidasi undangan..."
 validationError = "Gagal memvalidasi tautan undangan"
-welcome = "Selamat datang di Stirling PDF"
+welcome = "Selamat datang di TreelifePDF"
 welcomeSubtitle = "Lengkapi penyiapan akun Anda untuk memulai"
 welcomeTitle = "Anda telah diundang!"
 
 [landing]
 addFiles = "Tambahkan File"
 heroSubtitle = "Seret dan letakkan atau tambahkan PDF yang sudah ada untuk memulai."
-heroTitle = "Stirling PDF"
+heroTitle = "TreelifePDF"
 mobileUpload = "Unggah dari Ponsel"
 openFromComputer = "Buka dari komputer"
 uploadFromComputer = "Unggah dari komputer"
@@ -4635,7 +4635,7 @@ subtitle = "Dengan lebih dari selusin alat untuk membantu Anda menyensor, menand
 title = "Edit PDF untuk menampilkan/mengamankan informasi yang Anda inginkan"
 
 [login.slides.overview]
-alt = "Sekilas Stirling PDF"
+alt = "Sekilas TreelifePDF"
 subtitle = "Suite cloud berfokus privasi untuk PDF yang memungkinkan Anda mengonversi, menandatangani, menyensor, dan mengelola dokumen, ditambah 50+ alat hebat lainnya."
 title = "Satu tempat untuk semua kebutuhan PDF Anda."
 
@@ -4753,7 +4753,7 @@ message = "Autentikasi tidak berhasil. Anda dapat menutup jendela ini dan mencob
 title = "Autentikasi Gagal"
 
 [oauth.success]
-message = "Anda dapat menutup jendela ini dan kembali ke Stirling PDF."
+message = "Anda dapat menutup jendela ini dan kembali ke TreelifePDF."
 title = "Autentikasi Berhasil"
 
 [oauthConsent]
@@ -4766,17 +4766,17 @@ loadFailed = "This authorisation request is invalid or has expired. Close this t
 loading = "Loading authorisation request..."
 missingId = "Missing authorisation request. Start the connection from your app and try again."
 redirecting = "Returning you to the app..."
-requesting = "{{app}} wants to access your Stirling PDF account"
+requesting = "{{app}} wants to access your TreelifePDF account"
 scopesIntro = "This will allow {{app}} to:"
 signedInAs = "Signed in as {{name}}"
 signInButton = "Sign in to continue"
-signInPrompt = "Sign in to your Stirling PDF account to continue connecting the app."
+signInPrompt = "Sign in to your TreelifePDF account to continue connecting the app."
 title = "Authorise access"
 unknownApp = "A third-party application"
 
 [oauthConsent.access]
 actAsYou = "Act as you - everything {{app}} does runs under your account and counts towards your usage"
-tools = "Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents"
+tools = "Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents"
 
 [oauthConsent.scope]
 email = "See your email address"
@@ -4943,11 +4943,11 @@ seePlans = "Lihat Paket →"
 upgrade = "Upgrade sekarang →"
 
 [onboarding.tourOverview]
-body = "Stirling PDF V2 hadir dengan puluhan alat dan tata letak yang diperbarui. Ikuti tur singkat untuk melihat apa yang berubah dan di mana menemukan fitur yang Anda butuhkan."
+body = "TreelifePDF V2 hadir dengan puluhan alat dan tata letak yang diperbarui. Ikuti tur singkat untuk melihat apa yang berubah dan di mana menemukan fitur yang Anda butuhkan."
 title = "Ringkasan Tur"
 
 [onboarding.welcomeSlide]
-body = "Stirling PDF kini siap untuk tim dari semua ukuran. Pembaruan ini mencakup tata letak baru, kemampuan admin yang kuat, dan fitur paling banyak diminta - <strong>Edit Text</strong>."
+body = "TreelifePDF kini siap untuk tim dari semua ukuran. Pembaruan ini mencakup tata letak baru, kemampuan admin yang kuat, dan fitur paling banyak diminta - <strong>Edit Text</strong>."
 title = "Selamat datang di Stirling"
 
 [onboarding.whatsNew]
@@ -5313,7 +5313,7 @@ leader = "Team owner"
 member = "Member"
 
 [payg.signupRequired]
-body = "Stirling PDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
+body = "TreelifePDF gives every signed-up account 500 free operations, enough to keep most workflows humming without paying a cent. You're currently using Stirling as a guest, which doesn't include billable tools like AI, automations, or hosted processing."
 cancel = "Not now"
 cta = "Sign up free"
 subtext = "Creating an account is free and takes a few seconds. No credit card required."
@@ -5798,7 +5798,7 @@ upToFiveUsers = "Hingga 5 pengguna"
 usageTrackingPrometheus = "Pelacakan penggunaan & Prometheus"
 
 [plan.licenseWarning]
-body = "Anda memiliki {{total}} pengguna tetapi level gratis hanya mendukung {{limit}} per server. Upgrade agar Stirling PDF tetap berjalan lancar."
+body = "Anda memiliki {{total}} pengguna tetapi level gratis hanya mendukung {{limit}} per server. Upgrade agar TreelifePDF tetap berjalan lancar."
 cta = "Lihat paket"
 overLimit = "lebih dari {{limit}}"
 title = "Batas gratis self-hosted tercapai"
@@ -6704,8 +6704,8 @@ hideTools = "Sembunyikan alat yang tidak tersedia ▴"
 messageNoFallback = "Alat tidak tersedia hingga server Anda kembali online."
 messageWithFallback = "Beberapa alat memerlukan koneksi server."
 showTools = "Lihat alat yang tidak tersedia ▾"
-title = "Server Stirling-PDF Anda tidak dapat dijangkau"
-toolNotAvailableLocally = "Server Stirling-PDF Anda sedang offline dan \"{{endpoint}}\" tidak tersedia pada backend lokal."
+title = "Server TreelifePDF Anda tidak dapat dijangkau"
+toolNotAvailableLocally = "Server TreelifePDF Anda sedang offline dan \"{{endpoint}}\" tidak tersedia pada backend lokal."
 
 [session]
 expired = "Sesi Anda telah kedaluwarsa. Silakan muat ulang halaman dan coba lagi."
@@ -6780,7 +6780,7 @@ autoUnzipFileLimitDescription = "Jumlah maksimum file yang diekstrak dari ZIP"
 autoUnzipFileLimitTooltip = "Hanya unzip jika ZIP berisi sebanyak ini atau lebih sedikit. Atur lebih tinggi untuk mengekstrak ZIP yang lebih besar."
 autoUnzipTooltip = "Secara otomatis mengekstrak file ZIP yang dikembalikan dari operasi API. Nonaktifkan untuk menjaga file ZIP tetap utuh. Ini tidak memengaruhi alur otomasi."
 defaultPdfEditor = "Editor PDF default"
-defaultPdfEditorActive = "Stirling PDF adalah editor PDF default Anda"
+defaultPdfEditorActive = "TreelifePDF adalah editor PDF default Anda"
 defaultPdfEditorChecking = "Memeriksa..."
 defaultPdfEditorInactive = "Aplikasi lain disetel sebagai default"
 defaultPdfEditorSet = "Sudah Default"
@@ -6841,7 +6841,7 @@ updateBehavior = "Perilaku pembaruan"
 updateBehaviorDescription = "Pilih apakah akan meminta konfirmasi sebelum memasang pembaruan, memasangnya secara otomatis, atau melewati pemeriksaan pembaruan sepenuhnya."
 updateBehaviorError = "Tidak dapat mengubah perilaku pembaruan"
 updateBehaviorErrorLocked = "Pengaturan ini dikunci oleh administrator Anda."
-updateBehaviorLockedDescription = "Administrator Anda telah mengonfigurasi bagaimana Stirling-PDF menangani pembaruan di mesin ini. Hubungi mereka untuk mengubahnya."
+updateBehaviorLockedDescription = "Administrator Anda telah mengonfigurasi bagaimana TreelifePDF menangani pembaruan di mesin ini. Hubungi mereka untuk mengubahnya."
 updateBehaviorSaved = "Perilaku pembaruan disimpan."
 versionMismatch = "Warning: A mismatch has been detected between the client version and the AppConfig version. Using different versions can lead to compatibility issues, errors, and security risks. Please ensure that server and client are using the same version."
 viewDetails = "Lihat Detail"
@@ -7074,7 +7074,7 @@ step3 = "Mulai ulang server"
 title = "Login Tidak Diaktifkan"
 
 [setup.server.url]
-description = "Masukkan URL lengkap server Stirling PDF self-hosted Anda"
+description = "Masukkan URL lengkap server TreelifePDF self-hosted Anda"
 label = "URL Server"
 
 [showJS]
@@ -7285,7 +7285,7 @@ pleaseFillAllFields = "Harap isi semua bidang"
 signUp = "Daftar"
 signUpWith = "Sign up with"
 skip = "Skip"
-subtitle = "Bergabunglah dengan Stirling PDF untuk memulai"
+subtitle = "Bergabunglah dengan TreelifePDF untuk memulai"
 title = "Buat akun"
 unexpectedError = "Kesalahan tak terduga: {{message}}"
 
@@ -7512,7 +7512,7 @@ download = "Unduh"
 downloaded = "Diunduh"
 downloadFailed = "Tidak dapat mengunduh file ini."
 downloadsCount = "Unduhan: {{count}}"
-emailWarningBody = "Ini terlihat seperti alamat email. Jika orang ini belum menjadi pengguna Stirling PDF, mereka tidak akan dapat mengakses file."
+emailWarningBody = "Ini terlihat seperti alamat email. Jika orang ini belum menjadi pengguna TreelifePDF, mereka tidak akan dapat mengakses file."
 emailWarningConfirm = "Tetap bagikan"
 emailWarningTitle = "Alamat email"
 errorTitle = "Gagal berbagi"
@@ -7543,7 +7543,7 @@ manageTitle = "Kelola Berbagi"
 noActivity = "Belum ada aktivitas."
 noLinks = "Belum ada tautan berbagi aktif."
 noSharedUsers = "Belum ada pengguna yang memiliki akses."
-openInApp = "Buka di Stirling PDF"
+openInApp = "Buka di TreelifePDF"
 ownerLabel = "Pemilik"
 ownerOnly = "Hanya pemilik yang dapat mengelola berbagi."
 ownerUnknown = "Tidak diketahui"
@@ -7593,7 +7593,7 @@ updateButton = "Perbarui di Server"
 uploadButton = "Unggah ke Server"
 
 [survey]
-title = "Stirling-PDF Survey"
+title = "TreelifePDF Survey"
 
 [swagger]
 tags = "api,dokumentasi,swagger,endpoint,pengembangan"
@@ -7718,7 +7718,7 @@ favorites = "Favorit"
 heading = "Semua alat (tampilan layar penuh)"
 noResults = "Coba sesuaikan pencarian Anda atau aktifkan deskripsi untuk menemukan yang Anda butuhkan."
 recommended = "Direkomendasikan"
-selfHostedOffline = "Memerlukan server Stirling-PDF Anda (saat ini offline):"
+selfHostedOffline = "Memerlukan server TreelifePDF Anda (saat ini offline):"
 showDetails = "Tampilkan Detail"
 unavailable = "Dinonaktifkan oleh admin server:"
 unavailableDependency = "Tidak tersedia - alat yang diperlukan tidak ada di server:"
@@ -7727,7 +7727,7 @@ unfavorite = "Hapus dari Favorit"
 [toolPanel.modePrompt]
 chooseFullscreen = "Gunakan mode layar penuh"
 chooseSidebar = "Gunakan mode bilah sisi"
-description = "Pratinjau kedua tata letak dan tentukan bagaimana Anda ingin menjelajahi alat Stirling PDF."
+description = "Pratinjau kedua tata letak dan tentukan bagaimana Anda ingin menjelajahi alat TreelifePDF."
 dismiss = "Mungkin nanti"
 fullscreenDescription = "Jelajahi setiap alat dalam katalog yang menutupi ruang kerja hingga Anda memilih satu."
 fullscreenTitle = "Mode layar penuh - (lama)"
@@ -7797,7 +7797,7 @@ loadingDetailedInfo = "Memuat informasi detail..."
 migrationGuide = "Panduan Migrasi"
 migrationGuides = "Panduan Migrasi"
 migrationGuidesDesc = "Tinjau perubahan penting sebelum memperbarui."
-modalSubtitle = "Versi baru Stirling PDF siap dipasang."
+modalSubtitle = "Versi baru TreelifePDF siap dipasang."
 modalTitle = "Pembaruan Tersedia"
 notes = "Catatan"
 releaseNotes = "Catatan Rilis"
@@ -7821,7 +7821,7 @@ urgent = "Mendesak"
 attentionBody = "Admin Anda perlu masuk untuk melihat info lebih lanjut. Harap hubungi mereka segera."
 attentionBodyAdmin = "Tinjau persyaratan lisensi untuk menjaga kepatuhan server ini."
 attentionTitle = "Server ini memerlukan perhatian admin"
-message = "Dapatkan manfaat maksimal Stirling PDF dengan pengguna tak terbatas dan fitur lanjutan"
+message = "Dapatkan manfaat maksimal TreelifePDF dengan pengguna tak terbatas dan fitur lanjutan"
 seeInfo = "Lihat info"
 title = "Upgrade ke Paket Server"
 upgradeButton = "Upgrade Sekarang"
@@ -7932,7 +7932,7 @@ continued = "Bersambung"
 downloads = "Unduhan"
 entryLabel = "Ringkasan Tanda Tangan"
 filesEvaluated = "{{count}} file dievaluasi"
-footer = "Divalidasi melalui Stirling PDF"
+footer = "Divalidasi melalui TreelifePDF"
 generatedAt = "Dibuat"
 noPdf = "Laporan PDF akan tersedia setelah validasi berhasil."
 page = "Halaman"

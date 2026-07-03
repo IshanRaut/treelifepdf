@@ -73,7 +73,7 @@ export default function OAuthConsent() {
   }, [location.search]);
 
   useDocumentMeta({
-    title: `${t("oauthConsent.title", "Authorize access")} - Stirling PDF`,
+    title: `${t("oauthConsent.title", "Authorize access")} - TreelifePDF`,
   });
 
   // Load the pending authorization once a session is available.
@@ -191,12 +191,12 @@ export default function OAuthConsent() {
     <div className="auth-logo-block">
       <img
         src={withBasePath("/modern-logo/LoginLightModeHeader.svg")}
-        alt="Stirling PDF"
+        alt="TreelifePDF"
         className="auth-logo-header auth-logo-header--light"
       />
       <img
         src={withBasePath("/modern-logo/LoginDarkModeHeader.svg")}
-        alt="Stirling PDF"
+        alt="TreelifePDF"
         className="auth-logo-header auth-logo-header--dark"
       />
     </div>
@@ -232,7 +232,7 @@ export default function OAuthConsent() {
         >
           {t(
             "oauthConsent.signInPrompt",
-            "Sign in to your Stirling PDF account to continue connecting the app.",
+            "Sign in to your TreelifePDF account to continue connecting the app.",
           )}
         </p>
         <button
@@ -295,13 +295,13 @@ export default function OAuthConsent() {
       >
         {t("oauthConsent.requesting", {
           app: appName,
-          defaultValue: `${appName} wants to access your Stirling PDF account`,
+          defaultValue: `${appName} wants to access your TreelifePDF account`,
         })}
       </p>
 
       {/* Be explicit about what connecting actually grants. The OAuth scopes
           (openid/email) only cover identity; the real power is that the issued
-          token lets the app drive the MCP endpoint - i.e. run any Stirling PDF
+          token lets the app drive the MCP endpoint - i.e. run any TreelifePDF
           tool as this user, audited as them and counted against their usage. */}
       <div
         style={{
@@ -337,7 +337,7 @@ export default function OAuthConsent() {
           <li style={{ fontSize: "0.875rem", color: "#374151" }}>
             {t("oauthConsent.access.tools", {
               app: appName,
-              defaultValue: `Use your Stirling PDF tools on your behalf - convert, edit, sign, secure and process your documents`,
+              defaultValue: `Use your TreelifePDF tools on your behalf - convert, edit, sign, secure and process your documents`,
             })}
           </li>
           <li style={{ fontSize: "0.875rem", color: "#374151" }}>

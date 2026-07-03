@@ -25,7 +25,7 @@ function SectionHead({ title, sub }: { title: string; sub: string }) {
 }
 
 /**
- * Editor deployment management. Deploy the Stirling PDF Editor product to a
+ * Editor deployment management. Deploy the TreelifePDF Editor product to a
  * target (Managed Cloud / Docker / Kubernetes), pair self-hosted instances back
  * to the org, watch instance health, and run credential / offline-activation
  * lifecycle tasks. Reached from Infrastructure → Deployments, not the sidebar.
@@ -50,7 +50,7 @@ export function EditorAdmin() {
         <div>
           <h1 className="portal-editor__title">Editor deployment</h1>
           <p className="portal-editor__sub">
-            Deploy the Stirling PDF Editor, pair self-hosted instances to your
+            Deploy the TreelifePDF Editor, pair self-hosted instances to your
             org, and operate the running fleet — targets, health, credentials,
             and offline activation in one place.
           </p>
