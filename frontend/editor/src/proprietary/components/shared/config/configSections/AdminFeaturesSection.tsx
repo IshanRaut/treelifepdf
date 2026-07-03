@@ -67,7 +67,7 @@ export default function AdminFeaturesSection() {
       } = {
         serverCertificate: systemData.serverCertificate || {
           enabled: true,
-          organizationName: "TreelifePDF",
+          organizationName: "TreelifePDF Inc",
           validity: 365,
           regenerateOnStartup: false,
         },
@@ -258,7 +258,8 @@ export default function AdminFeaturesSection() {
                   "Organization name for generated certificates",
                 )}
                 value={
-                  settings.serverCertificate?.organizationName || "TreelifePDF"
+                  settings.serverCertificate?.organizationName ||
+                  "TreelifePDF Inc"
                 }
                 onChange={(e) =>
                   setSettings({

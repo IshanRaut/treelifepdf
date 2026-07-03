@@ -1,16 +1,17 @@
+import { useTranslation } from "react-i18next";
 import { MetricCard, MetricStrip } from "@shared/components";
 import type { SourcesResponse } from "@portal/api/sources";
 
 /**
- * KPI labels are product copy — they describe what each metric IS, not its
- * current value. They stay client-side so the strip's structure is stable
- * across loading / empty / ready states; only values + deltas flow from the API.
+ * KPI labels are product copy: they describe what each metric IS, not its
+ * current value. They stay client-side so the strip's structure is stable across
+ * loading / empty / ready states; only values + descriptions flow from the API.
+ * Order matches SourceOverviewService.buildKpis: total, in-use, unused.
  */
-const KPI_LABELS = [
-  "Agents active",
-  "Scenarios",
-  "Eval pass rate (7d)",
-  "Docs / 24h",
+const KPI_LABEL_KEYS = [
+  "sources.kpi.total",
+  "sources.kpi.inUse",
+  "sources.kpi.unused",
 ] as const;
 
 interface KpiStripProps {
@@ -19,17 +20,16 @@ interface KpiStripProps {
 }
 
 export function KpiStrip({ data, loading }: KpiStripProps) {
+  const { t } = useTranslation();
   return (
     <MetricStrip>
-      {KPI_LABELS.map((label, i) => {
+      {KPI_LABEL_KEYS.map((labelKey, i) => {
         const k = loading ? undefined : data?.kpis[i];
         return (
           <MetricCard
-            key={label}
-            label={label}
+            key={labelKey}
+            label={t(labelKey)}
             value={k?.value ?? "—"}
-            delta={k?.delta}
-            deltaDirection={k?.deltaDirection}
             description={k?.description}
           />
         );

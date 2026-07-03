@@ -1,12 +1,15 @@
+import { useTranslation } from "react-i18next";
 import { Dropdown, NavItem } from "@shared/components";
 import { useView, type ViewId } from "@portal/contexts/ViewContext";
 import { useTier } from "@portal/contexts/TierContext";
 import { useTheme } from "@portal/contexts/ThemeContext";
 import { useUI } from "@portal/contexts/UIContext";
+import { useLink } from "@portal/contexts/LinkContext";
 import { useAsync } from "@portal/hooks/useAsync";
 import { fetchHomeKpis, type KpiEntry } from "@portal/api/home";
-import markLight from "@shared/assets/stirling-mark-light.svg";
-import markDark from "@shared/assets/stirling-mark-dark.svg";
+import { EDITOR_URL } from "@portal/auth/editorUrl";
+import markLight from "@shared/assets/brand/modern-logo/StirlingPDFLogoNoTextLight.svg";
+import markDark from "@shared/assets/brand/modern-logo/StirlingPDFLogoNoTextDark.svg";
 import {
   HomeIcon,
   UsersIcon,
@@ -17,48 +20,60 @@ import {
   ComponentsIcon,
   InfrastructureIcon,
   UsageIcon,
+  LinkIcon,
   DocsIcon,
+  ProcurementIcon,
   SettingsIcon,
   ChevronDownIcon,
 } from "@portal/components/icons";
 import "@portal/components/Sidebar.css";
 
-// The editor is a separate Vite app with no shared shell, so switching apps is
-// a hard navigation — the editor's dev server in dev, the site root in prod.
-// A standalone portal deploy can gate this behind a configured editor URL.
-const EDITOR_URL = import.meta.env.DEV ? "http://localhost:5180/" : "/";
-
 interface NavEntry {
   id: ViewId;
-  label: string;
   icon: React.ReactNode;
 }
 
-const GROUP_PRIMARY: NavEntry[] = [
-  { id: "home", label: "Home", icon: <HomeIcon /> },
-];
+const GROUP_PRIMARY: NavEntry[] = [{ id: "home", icon: <HomeIcon /> }];
 
 const GROUP_OPERATIONAL: NavEntry[] = [
-  { id: "users", label: "Users", icon: <UsersIcon /> },
-  { id: "sources", label: "Sources", icon: <SourcesIcon /> },
-  { id: "policies", label: "Policies", icon: <PoliciesIcon /> },
-  { id: "pipelines", label: "Pipelines", icon: <PipelinesIcon /> },
-  { id: "documents", label: "Documents", icon: <DocumentsIcon /> },
-  { id: "components", label: "Components", icon: <ComponentsIcon /> },
+  { id: "users", icon: <UsersIcon /> },
+  { id: "sources", icon: <SourcesIcon /> },
+  { id: "policies", icon: <PoliciesIcon /> },
+  { id: "pipelines", icon: <PipelinesIcon /> },
+  { id: "documents", icon: <DocumentsIcon /> },
+  { id: "components", icon: <ComponentsIcon /> },
 ];
 
 const GROUP_PLATFORM: NavEntry[] = [
-  {
-    id: "infrastructure",
-    label: "Infrastructure",
-    icon: <InfrastructureIcon />,
-  },
-  { id: "usage", label: "Usage & Billing", icon: <UsageIcon /> },
-  { id: "docs", label: "Developer Docs", icon: <DocsIcon /> },
+  { id: "infrastructure", icon: <InfrastructureIcon /> },
+  { id: "usage", icon: <UsageIcon /> },
+  { id: "docs", icon: <DocsIcon /> },
 ];
+
+/**
+ * Sidebar-footer link-account CTA. Only visible when the org is unlinked — once
+ * linked, the linked-instances row + plan badge already communicate the state,
+ * so a permanent footer button would be noise. Click → opens the login modal
+ * directly.
+ */
+function LinkAccountFooterItem() {
+  const { t } = useTranslation();
+  const { openLinkModal } = useUI();
+  const { linkState } = useLink();
+  if (linkState !== "unlinked") return null;
+  return (
+    <NavItem
+      id="account-link"
+      label={t("shell.sidebar.linkAccount", "Link Stirling account")}
+      icon={<LinkIcon />}
+      onClick={() => openLinkModal()}
+    />
+  );
+}
 
 function UsageFooter() {
   const { tier } = useTier();
+  const { t } = useTranslation();
   // Read the same endpoint Home's KPI strip uses so the doc count here can't
   // drift from the headline figure. The first KPI is always the doc total.
   const { data: kpis, loading } = useAsync<KpiEntry[]>(
@@ -77,7 +92,9 @@ function UsageFooter() {
     return (
       <div className="portal-sidebar__usage portal-sidebar__usage--free">
         <div className="portal-sidebar__usage-line">
-          <span className="portal-sidebar__usage-label">Docs processed</span>
+          <span className="portal-sidebar__usage-label">
+            {t("shell.sidebar.docsProcessed")}
+          </span>
           <span className="portal-sidebar__usage-value">{docs ?? "—"}</span>
         </div>
         <div
@@ -95,7 +112,10 @@ function UsageFooter() {
     );
   }
 
-  const planLabel = tier === "pro" ? "Pay-as-you-go" : "Enterprise Plan";
+  const planLabel =
+    tier === "pro"
+      ? t("shell.sidebar.planProcessor", "Processor plan")
+      : t("shell.sidebar.planEnterprise", "Enterprise plan");
 
   return (
     <div className="portal-sidebar__usage">
@@ -105,7 +125,7 @@ function UsageFooter() {
           {planLabel}
         </span>
         <span className="portal-sidebar__usage-value">
-          {docs != null ? `${docs} docs` : "—"}
+          {docs != null ? t("shell.sidebar.docsCount", { docs }) : "—"}
         </span>
       </div>
     </div>
@@ -116,13 +136,22 @@ export function Sidebar() {
   const { activeView, setActiveView } = useView();
   const { theme } = useTheme();
   const { openSettings } = useUI();
+  const { tier } = useTier();
+  const { t } = useTranslation();
+
+  // Procurement is the enterprise buyer's commercial journey — surfaced only to
+  // enterprise tenants (it has no free/pro equivalent).
+  const platformGroup: NavEntry[] =
+    tier === "enterprise"
+      ? [{ id: "procurement", icon: <ProcurementIcon /> }, ...GROUP_PLATFORM]
+      : GROUP_PLATFORM;
 
   function renderGroup(entries: NavEntry[]) {
     return entries.map((entry) => (
       <NavItem
         key={entry.id}
         id={entry.id}
-        label={entry.label}
+        label={t(`nav.${entry.id}`)}
         icon={entry.icon}
         isActive={activeView === entry.id}
         onClick={(id) => setActiveView(id as ViewId)}
@@ -131,7 +160,10 @@ export function Sidebar() {
   }
 
   return (
-    <aside className="portal-sidebar" aria-label="Primary navigation">
+    <aside
+      className="portal-sidebar"
+      aria-label={t("shell.sidebar.primaryNav")}
+    >
       <div className="portal-sidebar__logo">
         <span className="portal-sidebar__brand">
           <img
@@ -140,7 +172,7 @@ export function Sidebar() {
             alt="Stirling"
           />
           <span className="portal-sidebar__logo-suffix">
-            Stirling Processor
+            {t("shell.sidebar.brandSuffix")}
           </span>
         </span>
 
@@ -149,7 +181,7 @@ export function Sidebar() {
             <button
               type="button"
               className="portal-sidebar__app-switch-btn"
-              aria-label="Switch app"
+              aria-label={t("shell.sidebar.switchApp")}
             >
               <ChevronDownIcon size={14} />
             </button>
@@ -165,7 +197,7 @@ export function Sidebar() {
                 />
               }
             >
-              Processor
+              {t("shell.sidebar.appProcessor")}
             </Dropdown.Item>
             <Dropdown.Item
               onSelect={() => {
@@ -179,7 +211,7 @@ export function Sidebar() {
                 />
               }
             >
-              Editor
+              {t("shell.sidebar.appEditor")}
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown.Root>
@@ -195,14 +227,15 @@ export function Sidebar() {
         </div>
         <div className="portal-sidebar__divider" aria-hidden />
         <div className="portal-sidebar__group">
-          {renderGroup(GROUP_PLATFORM)}
+          {renderGroup(platformGroup)}
         </div>
       </nav>
 
       <div className="portal-sidebar__footer">
+        <LinkAccountFooterItem />
         <NavItem
           id="settings"
-          label="Settings"
+          label={t("nav.settings")}
           icon={<SettingsIcon />}
           onClick={() => openSettings()}
         />
